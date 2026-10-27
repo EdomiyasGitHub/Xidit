@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="so">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Xidid — Somali Search &amp; Stemmer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Landing page: shown when the address has no #fragment. The app
+       loads its data in the background meanwhile. -->
+  <div id="landing" class="landing">
+    <header class="landing-bar">
+      <span class="landing-mark">Xidid</span>
+      <a class="landing-bar-link" href="#search">Open the app &rarr;</a>
+    </header>
+
+    <section class="landing-hero">
+      <p class="landing-eyebrow">Somali information retrieval</p>
+      <h1 class="landing-title">One word,<br />many forms.</h1>
+      <p class="landing-lede">
+        Somali words change shape: the corpus never contains <em>dugsi</em> (school), only <em>dugsiga</em> and
+        <em>dugsiyada</em>. Xidid is a search engine that brings every form back to its root, explains every score,
+        and measures how well it works.
+      </p>
+      <div class="landing-ctas">
+        <a class="landing-btn" href="#search">Open Xidid &rarr;</a>
+        <a class="landing-btn ghost" href="#tour">Watch the 30-second tour</a>
+      </div>
+    </section>
+
+    <figure id="tour" class="landing-video">
+      <video id="promo-video" poster="assets/xidid-promo-poster.jpg"
+        autoplay muted loop playsinline controls preload="metadata"
+        aria-label="30-second silent tour of Xidid: a Somali word changes form, plain search finds nothing, Xidid finds all 12 documents and explains the score.">
+        <source src="assets/xidid-promo.mp4" type="video/mp4" />
+        <source src="assets/xidid-promo.webm" type="video/webm" />
+      </video>
+      <figcaption>A 30-second tour, rendered from the real app. Silent.</figcaption>
+    </figure>
+
+    <dl class="landing-stats">
+      <div><dt>Somali documents</dt><dd>300</dd></div>
+      <div><dt>Words in the lexicon</dt><dd>10,503</dd></div>
+      <div><dt>Word forms &rarr; stems</dt><dd>4,962 &rarr; 4,072</dd></div>
+      <div><dt>Configurations compared</dt><dd>3</dd></div>
+    </dl>
+
+    <section class="landing-features" aria-label="What's inside">
+      <a class="feature" href="#search">
+        <h2>Search</h2>
+        <p>Ranked TF-IDF search, side by side with unstemmed search or the Snowball stemmer, with every score broken down term by term.</p>
+        <span>Open &rarr;</span>
+      </a>
+      <a class="feature" href="#explorer">
+        <h2>Conflation</h2>
+        <p>See which word forms each stem gathers, how much the vocabulary shrinks, and where the stemmer goes wrong.</p>
+        <span>Open &rarr;</span>
+      </a>
+      <a class="feature" href="#lab">
+        <h2>Stemmer Lab</h2>
+        <p>Trace any word through the stemmer. Add protected words and overrides, and watch the search results update.</p>
+        <span>Open &rarr;</span>
+      </a>
+      <a class="feature" href="#eval">
+        <h2>Evaluation</h2>
+        <p>Judge results by hand, then compare raw, Xidid and Snowball with precision, recall and MAP.</p>
+        <span>Open &rarr;</span>
+      </a>
+      <a class="feature" href="#review">
+        <h2>Review</h2>
+        <p>A workspace for Somali speakers to check the stemmer's word groups, feeding the next round of rules.</p>
+        <span>Open &rarr;</span>
+      </a>
+    </section>
+
+    <section class="landing-honest">
+      <h2>Built honestly</h2>
+      <ul>
+        <li>The stemmer only accepts a cut it can confirm in its 10,503-word lexicon, so words missing from it, like <em>tallaal</em> (vaccine), stay unmerged.</li>
+        <li>Irregular plurals such as <em>guryaha</em> (the houses) need hand-written overrides.</li>
+        <li>The corpus comes from the SOPC-v2 dataset; whether its texts are human-written is still being checked.</li>
+        <li>The evaluation uses 10 queries judged by one non-Somali speaker through translation: indicative, not conclusive.</li>
+      </ul>
+      <p class="landing-next"><strong>Next:</strong> a Somali stemmer for the open-source Snowball project, reviewed by a native speaker.</p>
+    </section>
+
+    <footer class="landing-foot">
+      IR course project &middot; Runs entirely in your browser, no server &middot; Corpus: SOPC-v2 (CC BY 4.0)
+    </footer>
+  </div>
+
+  <div id="app" class="app" hidden>
+    <header class="masthead">
+      <a class="back-link" href="#welcome">&larr; About Xidid</a>
+      <h1>Xidid</h1>
+      <p class="tagline">A rule-based Somali stemmer, wired into a small search engine, built for an IR course project.</p>
+    </header>
+
+    <p id="load-status" class="load-status">Loading lexicon and corpus…</p>
+
+    <nav class="tabs" role="tablist">
+      <button type="button" class="tab active" data-tab="search">Search</button>
+      <button type="button" class="tab" data-tab="explorer">Conflation</button>
+      <button type="button" class="tab" data-tab="lab">Stemmer Lab</button>
+      <button type="button" class="tab" data-tab="eval">Evaluation</button>
+      <button type="button" class="tab" data-tab="review">Review</button>
+    </nav>
+
+    <section id="tab-search" class="tab-panel active">
+      <form id="search-form" class="search-form">
+        <label for="search-input" class="visually-hidden">Search query</label>
+        <input id="search-input" type="text" placeholder="Raadi… (e.g. guryaha, cunto, dugsi)" autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="compare-row">
+        <label class="toggle">
+          <input type="checkbox" id="compare-toggle" />
+          <span>Compare Xidid with</span>
+        </label>
+        <label for="compare-target" class="visually-hidden">Configuration to compare with</label>
+        <select id="compare-target">
+          <option value="raw">unstemmed search</option>
+          <option value="snowball">the Snowball stemmer</option>
+        </select>
+      </div>
+
+      <div id="query-trace" class="query-trace"></div>
+      <div id="results" class="results"></div>
+
+      <details class="corpus-panel">
+        <summary>Corpus <span id="corpus-stats" class="corpus-stats"></span></summary>
+        <p class="note">
+          300 documents from the Somali Open Pre-Training Corpus v2 (CC BY 4.0), across eight categories.
+          See <code>data/CORPUS_SOURCES.md</code>. Added or removed documents last for this session only;
+          download <code>corpus.json</code> to keep your changes.
+        </p>
+        <ul id="corpus-list" class="corpus-list"></ul>
+        <form id="add-doc-form" class="add-doc-form">
+          <input id="doc-title" type="text" placeholder="Document title" required />
+          <textarea id="doc-text" rows="3" placeholder="Document text" required></textarea>
+          <div class="form-actions">
+            <button type="submit">Add document</button>
+            <button type="button" id="reset-corpus" class="secondary">Reset to original corpus</button>
+          </div>
+          <div class="form-actions">
+            <button type="button" id="download-corpus" class="secondary">Download corpus.json</button>
+            <label class="file-btn">
+              Import corpus.json
+              <input id="import-corpus" type="file" accept=".json,application/json" class="visually-hidden" />
+            </label>
+          </div>
+        </form>
+      </details>
+    </section>
+
+    <section id="tab-explorer" class="tab-panel">
+      <p class="lab-intro">
+        A stemmer's job is conflation: collapsing many word forms into one index term. This tab shows
+        what that did to this corpus, and which forms ended up sharing a term. Forms that don't share a
+        meaning are overstemming.
+      </p>
+
+      <div class="eval-toolbar">
+        <div class="seg" role="group" aria-label="Stemmer to inspect">
+          <button type="button" class="seg-btn active" data-conf="stemmed">Xidid</button>
+          <button type="button" class="seg-btn" data-conf="snowball">Snowball</button>
+        </div>
+      </div>
+      <p id="conf-compare" class="note"></p>
+
+      <dl id="corpus-figures" class="figures"></dl>
+      <p id="unstable-note" class="note unstable-note"></p>
+
+      <form id="explorer-form" class="search-form">
+        <label for="explorer-input" class="visually-hidden">Word or stem to look up</label>
+        <input id="explorer-input" type="text" placeholder="A word or stem, e.g. saacad, lacag" autocomplete="off" />
+        <button type="submit">Look up</button>
+      </form>
+      <p class="try-row">Try:
+        <button type="button" class="chip" data-lookup="saacad">saacad</button>
+        <button type="button" class="chip" data-lookup="dugsi">dugsi</button>
+        <button type="button" class="chip" data-lookup="guri">guri</button>
+        <button type="button" class="chip" data-lookup="lacag">lacag</button>
+        <button type="button" class="chip" data-lookup="ubax">ubax</button>
+      </p>
+      <div id="explorer-result" class="explorer-result"></div>
+
+      <h2 class="section-title">Largest conflation classes</h2>
+      <p class="note">Index terms that absorbed the most distinct word forms. Click one to inspect it.</p>
+      <ol id="largest-classes" class="class-list"></ol>
+    </section>
+
+    <section id="tab-lab" class="tab-panel">
+      <p class="lab-intro">
+        Stem one or more words to see how the algorithm reached its answer — normalization, suffix
+        stripping, prefix stripping, and lexicon confirmation.
+      </p>
+      <form id="lab-form" class="lab-form">
+        <label for="lab-input" class="visually-hidden">Words to stem</label>
+        <input id="lab-input" type="text" placeholder="guryaha carruurta doonayaan" autocomplete="off" />
+        <button type="submit">Stem</button>
+      </form>
+      <div id="lab-results" class="lab-results"></div>
+
+      <div class="lists-grid">
+        <div class="list-panel">
+          <h2>Protected words</h2>
+          <p class="note">Words that are never stemmed.</p>
+          <form id="protected-form" class="inline-form">
+            <input id="protected-input" type="text" placeholder="add word(s), space or comma separated" />
+            <button type="submit">Add</button>
+          </form>
+          <ul id="protected-list" class="edit-list"></ul>
+          <div class="form-actions">
+            <button type="button" id="download-protected" class="secondary">Download JSON</button>
+            <label class="file-btn">
+              Import JSON
+              <input id="import-protected" type="file" accept=".json,application/json" class="visually-hidden" />
+            </label>
+          </div>
+        </div>
+
+        <div class="list-panel">
+          <h2>Overrides</h2>
+          <p class="note">Irregular word → stem pairs, checked before any rule runs.</p>
+          <form id="overrides-form" class="inline-form">
+            <input id="overrides-input" type="text" placeholder="word=stem, space or comma separated" />
+            <button type="submit">Add</button>
+          </form>
+          <ul id="overrides-list" class="edit-list"></ul>
+          <div class="form-actions">
+            <button type="button" id="download-overrides" class="secondary">Download JSON</button>
+            <label class="file-btn">
+              Import JSON
+              <input id="import-overrides" type="file" accept=".json,application/json" class="visually-hidden" />
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tab-eval" class="tab-panel">
+      <p class="lab-intro">
+        Does stemming actually improve search? This tab measures it. Ten test queries were judged by hand
+        (relevant or not) on a pool of documents from all three configurations (raw, Xidid, Snowball), and each is scored
+        with standard IR metrics.
+      </p>
+
+      <div class="eval-toolbar">
+        <div class="seg" role="group" aria-label="Evaluation view">
+          <button type="button" class="seg-btn active" data-eval-view="results">Results</button>
+          <button type="button" class="seg-btn" data-eval-view="judge">Judge</button>
+        </div>
+        <span id="eval-progress" class="eval-progress"></span>
+      </div>
+
+      <div id="eval-banner"></div>
+      <div id="eval-results" class="eval-view"></div>
+      <div id="eval-judge" class="eval-view" hidden></div>
+
+      <div class="form-actions eval-files">
+        <button type="button" id="download-qrels" class="secondary">Download qrels.json</button>
+        <label class="file-btn">
+          Import qrels.json
+          <input id="import-qrels" type="file" accept=".json,application/json" class="visually-hidden" />
+        </label>
+        <button type="button" id="reset-qrels" class="secondary">Reset to data/qrels.json</button>
+      </div>
+      <p class="note">Judgments are saved in this browser automatically. Download <code>qrels.json</code> and save it
+        into <code>data/</code> to keep them with the project.</p>
+    </section>
+
+    <section id="tab-review" class="tab-panel">
+      <p class="lab-intro">
+        <strong>For Somali speakers.</strong> A stemmer groups different forms of a word together so that a search
+        for one form also finds the others (for example <em>dugsi</em>, <em>dugsiga</em>, <em>dugsiyada</em>).
+        Please check its groups: mark any word that is not a form of the same basic word as the others.
+        Plurals, "the", possessives and verb forms belong together; different words that only look alike do not.
+      </p>
+
+      <div class="review-head">
+        <label class="review-name">Your name <span class="note">(optional, only used to credit you)</span>
+          <input id="review-name" type="text" autocomplete="name" />
+        </label>
+        <span id="review-progress" class="eval-progress"></span>
+      </div>
+
+      <div class="eval-toolbar">
+        <div class="seg" role="group" aria-label="Review section">
+          <button type="button" class="seg-btn active" data-review-view="practice">Practice</button>
+          <button type="button" class="seg-btn" data-review-view="groups">Word groups</button>
+          <button type="button" class="seg-btn" data-review-view="comparisons">Compare groups</button>
+        </div>
+      </div>
+
+      <div id="review-body"></div>
+
+      <div class="form-actions eval-files">
+        <button type="button" id="download-review" class="secondary">Download review file</button>
+        <label class="file-btn">
+          Import review file
+          <input id="import-review" type="file" accept=".json,application/json" class="visually-hidden" />
+        </label>
+        <button type="button" id="clear-review" class="secondary">Clear my answers</button>
+      </div>
+      <p class="note">Your answers are saved automatically in this browser. When you have finished, click
+        <em>Download review file</em> and send the file back.</p>
+    </section>
+
+    <footer class="app-footer">
+      <p>Everything runs client-side — no server, no API calls. Edits to protected words and overrides apply to search immediately and last for this session; download the JSON to keep them.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Build output (regenerate with: node tools/build-single-file.mjs)
+dist/
+
+# Promo film render frames (900 PNGs; regenerate with promo/render.py)
+promo/frames/
+
+# Tool outputs and reviewer files (review files contain reviewers' names:
+# only commit them with the reviewer's permission)
+reports/
+reviews/
+
+# Local clutter
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Cloudflare Wrangler local state
+.wrangler/

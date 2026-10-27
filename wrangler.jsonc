@@ -1,0 +1,12 @@
+// Cloudflare deployment: an assets-only Worker (no server code).
+// Deploy with:  npx wrangler deploy
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "xidid",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    // Serve the project folder itself; .assetsignore keeps the
+    // non-website parts (tools, film source, docs, git) from being uploaded.
+    "directory": "./"
+  }
+}

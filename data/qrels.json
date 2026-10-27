@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "poolDepth": 10,
+  "judge": "",
+  "notes": "Fill in judgments in the app (Evaluation tab > Judge), then Download qrels.json and save it here.",
+  "queries": [
+    {
+      "id": "q01",
+      "text": "dugsi",
+      "gloss": "school",
+      "need": "Documents about schools or schooling (school rules, school history, school exams).",
+      "judgments": {}
+    },
+    {
+      "id": "q02",
+      "text": "saacad",
+      "gloss": "hour; clock",
+      "need": "Documents where hours or clock time matter (hours of sleep, opening hours, timetables).",
+      "judgments": {}
+    },
+    {
+      "id": "q03",
+      "text": "lambar",
+      "gloss": "number",
+      "need": "Documents about personal or account numbers: PINs, phone numbers, passwords or codes.",
+      "judgments": {}
+    },
+    {
+      "id": "q04",
+      "text": "guri",
+      "gloss": "house; home",
+      "need": "Documents about houses, homes or home life.",
+      "judgments": {}
+    },
+    {
+      "id": "q05",
+      "text": "magaalada",
+      "gloss": "the city",
+      "need": "Documents about a city, or events taking place in a city.",
+      "judgments": {}
+    },
+    {
+      "id": "q06",
+      "text": "safar",
+      "gloss": "journey; travel",
+      "need": "Documents about travel or journeys.",
+      "judgments": {}
+    },
+    {
+      "id": "q07",
+      "text": "tallaalka carruurta",
+      "gloss": "the vaccination; the children",
+      "need": "Documents about vaccinating children.",
+      "judgments": {}
+    },
+    {
+      "id": "q08",
+      "text": "lacag",
+      "gloss": "money",
+      "need": "Documents about money: payments, saving, budgets or finance.",
+      "judgments": {}
+    },
+    {
+      "id": "q09",
+      "text": "ubax",
+      "gloss": "flower",
+      "need": "Documents about flowers.",
+      "judgments": {}
+    },
+    {
+      "id": "q10",
+      "text": "kariyo",
+      "gloss": "cooked; to cook",
+      "need": "Documents about cooking or preparing food.",
+      "judgments": {}
+    }
+  ]
+}

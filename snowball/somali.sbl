@@ -1,0 +1,72 @@
+// Somali stemmer -- prototype v0 (rules only).
+//
+// Status: research prototype from the Xidid project, not yet reviewed by a
+// native speaker. It is a rules-only port of a lexicon-gated stemmer: the
+// original only accepts a stripped stem when it is a dictionary word;
+// Snowball stemmers are purely algorithmic, so this version has no
+// dictionary and decides by rules alone.
+//
+// Input is expected to be lower case. Somali is written in the Latin
+// alphabet with no diacritics, so no stringdefs are needed; apostrophes
+// (glottal stop, e.g. da'ay) are assumed to be removed before stemming.
+
+routines ( mark_regions R1 Suffix )
+externals ( stem )
+integers ( p1 )
+
+define mark_regions as (
+    $p1 = limit
+    // WHY: removing a suffix must leave at least three letters. Shorter
+    // remainders are mostly fragments, and many Somali roots are CVC
+    // (gal, bax, qor), so three is the shortest plausible stem.
+    do ( hop 3 setmark p1 )
+)
+
+backwardmode (
+    define R1 as $p1 <= cursor
+
+    // Suffixes from the original stemmer's inventory: definite articles
+    // and demonstratives (-ka, -ta, -da, -ga, -kii, -tii ...), possessives
+    // (-kayga, -tayda, -kiisa ...), plural markers (-yaal, -yo, -yaasha ...)
+    // and verb endings (-ayaa, -naysaa, -doonaa ...).
+    //
+    // WHY longest match: among always selects the longest suffix that
+    // matches, so 'dugsiyada' loses -yada rather than just -da.
+    define Suffix as (
+        [substring] R1 among (
+            'doonayaan' 'doonaysaa'
+            'aynaynaa' 'doonayaa'
+            'aynayaa' 'doontaa'
+            'dayada' 'doonaa' 'nayaan' 'naysaa' 'yaasha'
+            'aanka' 'ayaan' 'aysaa' 'aysan' 'dayda' 'hayga' 'iinka' 'kayga'
+            'kiisa' 'tayda' 'tiisa'
+            'aada' 'ayaa' 'ayay' 'ayey' 'ayna' 'haha' 'naan' 'naya'
+            'nayo' 'teen' 'yaal' 'yada' 'yaha'
+            'aan' 'aha' 'dii' 'een' 'gii' 'hay' 'kii' 'naa'
+            'nay' 'ood' 'oon' 'sha' 'taa' 'tay' 'tii' 'yay'
+            'yin'
+            'aa' 'ay' 'ba' 'da' 'du' 'ga' 'gu' 'in'
+            'ka' 'ku' 'na' 'se' 'su' 'ta' 'tu' 'ya'
+            'yo'
+            'e' 'o'
+                (delete)
+        )
+    )
+)
+
+define stem as (
+    // WHY no prefix stripping: ku, ka, la and u are mostly separate
+    // preverbal particles in written Somali, not fused prefixes. Without a
+    // dictionary to confirm the result, stripping them truncates ordinary
+    // words that merely begin with those letters: kursi 'chair', ukun
+    // 'egg', laba 'two', kasta 'every', lacag 'money', ubax 'flower'.
+    // Even the dictionary-gated original got these wrong.
+    do mark_regions
+    backwards (
+        // WHY two passes: words often stack two suffixes (plural + article,
+        // stem + verb ending), e.g. dugsi-yo + -da. The original also uses
+        // two passes.
+        do Suffix
+        do Suffix
+    )
+)

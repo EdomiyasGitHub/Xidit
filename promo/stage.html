@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Xidid promo stage</title>
+<style>
+  :root {
+    --ink: #14211f;
+    --ink-2: #1b2a27;
+    --paper: #f4f2ea;
+    --muted: #c9c6ba;
+    --dim: #8f8c7f;
+    --teal: #3c6e63;
+    --teal-hi: #5fa392;
+    --ochre: #b9862f;
+    --ochre-hi: #d9a548;
+    --display: "Fraunces", Georgia, serif;
+    --body: "Work Sans", sans-serif;
+    --mono: "IBM Plex Mono", monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: var(--ink); }
+  #stage {
+    position: relative; width: 1920px; height: 1080px; overflow: hidden;
+    background: radial-gradient(ellipse 80% 70% at 50% 45%, #1a2b28 0%, var(--ink) 70%);
+    font-family: var(--body); color: var(--paper);
+  }
+  .layer { position: absolute; will-change: transform, opacity; opacity: 0; }
+  .center { left: 0; right: 0; text-align: center; }
+  .word { font-family: var(--display); font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; }
+  .suf { color: var(--ochre-hi); }
+  .gloss { font-family: var(--mono); font-size: 28px; color: var(--dim); letter-spacing: 0.02em; }
+  .eyebrow { font-family: var(--mono); font-size: 22px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ochre-hi); }
+  .h { font-family: var(--body); font-weight: 600; font-size: 64px; line-height: 1.08; letter-spacing: -0.015em; }
+  .big { font-family: var(--display); font-weight: 600; font-size: 132px; line-height: 1; letter-spacing: -0.02em; }
+  .sub { font-family: var(--body); font-size: 30px; line-height: 1.4; color: var(--muted); }
+  .shot {
+    border-radius: 10px; overflow: hidden;
+    box-shadow: 0 40px 90px rgba(0,0,0,0.55), 0 0 0 1px #2c3d39;
+    background: var(--ink);
+  }
+  .shot img { display: block; width: 100%; }
+  .shot .inner { position: relative; transform-origin: 0 0; }
+  .shot .inner img { width: 100%; }
+  .hl { position: absolute; border: 3px solid var(--teal-hi); border-radius: 8px; opacity: 0; box-shadow: 0 0 0 9999px rgba(10,18,16,0.0); }
+  .rootline { position: absolute; height: 6px; background: var(--teal-hi); border-radius: 3px; transform-origin: left center; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 16px;
+    font-family: var(--body); font-weight: 600; font-size: 34px;
+    padding: 22px 44px; border-radius: 6px; background: var(--teal); color: var(--paper);
+  }
+  .fine { font-family: var(--mono); font-size: 22px; color: var(--dim); letter-spacing: 0.04em; }
+  .grain { position: absolute; inset: 0; opacity: 0.05; pointer-events: none; mix-blend-mode: overlay; }
+  .fade { position: absolute; inset: 0; background: var(--ink); opacity: 0; pointer-events: none; }
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- Shot A + C: the word and its forms -->
+  <div id="w-root" class="layer word center" style="top:390px;font-size:190px;">dugsi</div>
+  <div id="w-left" class="layer word" style="top:418px;font-size:128px;">dugsi<span class="suf">ga</span></div>
+  <div id="w-right" class="layer word" style="top:418px;font-size:128px;">dugsi<span class="suf">yada</span></div>
+  <div id="g-root" class="layer gloss center" style="top:640px;">school</div>
+  <div id="g-left" class="layer gloss" style="top:600px;">the school</div>
+  <div id="g-right" class="layer gloss" style="top:600px;">the schools</div>
+  <div id="a-head" class="layer h center" style="top:800px;">One word. Many shapes.</div>
+  <div id="a-tag" class="layer eyebrow center" style="top:250px;">Somali</div>
+  <div id="rootline" class="layer rootline" style="top:625px;left:810px;width:300px;"></div>
+
+  <!-- Shot C: wordmark -->
+  <div id="c-mark" class="layer word center" style="top:330px;font-size:230px;">Xidid</div>
+  <div id="c-tag" class="layer sub center" style="top:640px;font-size:40px;color:var(--paper);">Search that understands Somali word forms.</div>
+
+  <!-- Left text column used by shots B, D, E, F -->
+  <div id="t-eyebrow" class="layer eyebrow" style="left:150px;top:300px;width:640px;"></div>
+  <div id="t-head" class="layer" style="left:150px;top:350px;width:680px;"></div>
+  <div id="t-sub" class="layer sub" style="left:150px;top:650px;width:620px;"></div>
+
+  <!-- Shot B -->
+  <div id="b-form" class="layer shot" style="left:900px;top:300px;width:870px;"><img src="caps/search_form.png" alt="" /></div>
+  <div id="b-col" class="layer shot" style="left:900px;top:420px;width:870px;padding:26px 30px;"><img src="caps/raw_col.png" alt="" style="width:810px" /></div>
+
+  <!-- Shot D -->
+  <div id="d-shot" class="layer shot" style="left:880px;top:150px;width:900px;height:780px;"><div class="inner" style="width:1340px;"><img src="caps/compare_dugsi.png" alt="" /></div></div>
+
+  <!-- Shot E -->
+  <div id="e-shot" class="layer shot" style="left:860px;top:170px;width:940px;height:740px;"><div class="inner" style="width:1260px;"><img src="caps/explain.png" alt="" />
+    <!-- positions measured from the capture's pixels (row 704-719, check line 1017-1033 of 1074) -->
+    <div id="e-hl1" class="hl" style="left:1%;top:63.9%;width:98%;height:5.2%;"></div>
+    <div id="e-hl2" class="hl" style="left:0.5%;top:93.0%;width:63%;height:4.9%;"></div>
+  </div></div>
+
+  <!-- Shot F -->
+  <div id="f-fig" class="layer shot" style="left:860px;top:330px;width:940px;"><img src="caps/figures.png" alt="" /></div>
+  <div id="f-sb" class="layer shot" style="left:880px;top:150px;width:900px;height:780px;"><div class="inner" style="width:1340px;"><img src="caps/compare_xaalad.png" alt="" /></div></div>
+
+  <!-- Shot G: end card -->
+  <div id="g-mark" class="layer word center" style="top:250px;font-size:220px;">Xidid</div>
+  <div id="g-tag" class="layer sub center" style="top:530px;font-size:44px;color:var(--paper);">Somali search, explained.</div>
+  <div id="g-btn" class="layer center" style="top:650px;"><span class="btn">Open Xidid <span aria-hidden="true">&rarr;</span></span></div>
+  <div id="g-fine" class="layer fine center" style="top:840px;">Runs in your browser &middot; 300 Somali documents &middot; IR course project</div>
+
+  <canvas id="grain" class="grain" width="480" height="270"></canvas>
+  <div id="fade" class="fade"></div>
+</div>
+
+<script>
+// ------------------------------------------------------------------
+// Deterministic timeline: render(t) sets every element from t alone,
+// so any frame can be rendered in any order.
+// ------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const outExpo = (x) => (x >= 1 ? 1 : 1 - Math.pow(2, -10 * x));
+const inOut = (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+const outCubic = (x) => 1 - Math.pow(1 - x, 3);
+const lerp = (a, b, x) => a + (b - a) * x;
+
+// fade in over [a, a+d], fade out over [b-d, b]
+function vis(t, a, b, din = 0.45, dout = 0.35) {
+  if (t < a || t > b) return 0;
+  return Math.min(outCubic(prog(t, a, a + din)), 1 - prog(t, b - dout, b));
+}
+function set(id, { o = null, x = 0, y = 0, s = 1, blur = 0, extra = "" } = {}) {
+  const el = $(id);
+  if (o !== null) el.style.opacity = o;
+  el.style.transform = `translate(${x}px, ${y}px) scale(${s}) ${extra}`;
+  el.style.filter = blur > 0.05 ? `blur(${blur}px)` : "none";
+}
+// rise-in helper: opacity + upward settle
+function rise(id, t, a, b, dist = 36, din = 0.55, dout = 0.35) {
+  const v = vis(t, a, b, din, dout);
+  const p = outExpo(prog(t, a, a + din * 1.4));
+  set(id, { o: v, y: (1 - p) * dist });
+}
+
+// text column content per shot
+const TEXT = {
+  B: { eyebrow: "Search, as usual", head: `<div class="h">Exact-match search:</div><div class="big" style="margin-top:18px;"><span style="color:var(--ochre-hi)">0</span> results.</div>`, sub: "Yet the word appears in 12 documents." },
+  D: { eyebrow: "Search, with Xidid", head: `<div class="h">Same query.</div><div class="big" style="margin-top:18px;"><span style="color:var(--teal-hi)">12</span> found.</div>`, sub: "Forms like dugsiga and dugsiyada are matched to their root, dugsi." },
+  E: { eyebrow: "Explainable", head: `<div class="h">Every score,</div><div class="big" style="margin-top:18px;">explained.</div>`, sub: "Term by term: tf, idf, cosine. The rows add up to the score." },
+  F1: { eyebrow: "Measured", head: `<div class="h">Measured,</div><div class="big" style="margin-top:18px;font-size:104px;">not guessed.</div>`, sub: "4,962 word forms, 4,072 stems: every merge can be inspected." },
+  F2: { eyebrow: "Compared", head: `<div class="h">Compared against</div><div class="big" style="margin-top:18px;">Snowball.</div>`, sub: "A rules-only stemmer prototype, side by side with Xidid." },
+};
+let currentText = null;
+function textShot(key) {
+  if (currentText === key) return;
+  currentText = key;
+  $("t-eyebrow").textContent = key ? TEXT[key].eyebrow : "";
+  $("t-head").innerHTML = key ? TEXT[key].head : "";
+  $("t-sub").textContent = key ? TEXT[key].sub : "";
+  // sub-line sits 40 px below the headline, whatever its height
+  const head = $("t-head");
+  $("t-sub").style.top = head.offsetTop + head.offsetHeight + 44 + "px";
+}
+function textBlock(t, a, b) {
+  rise("t-eyebrow", t, a, b, 20, 0.45);
+  rise("t-head", t, a + 0.15, b, 40, 0.6);
+  rise("t-sub", t, a + 0.7, b, 24, 0.55);
+}
+
+function render(t) {
+  // ---------------- Shot A: 0-4 s, the word splits ----------------
+  // root word sharpens in, then holds; forms peel off left/right
+  {
+    const inP = outCubic(prog(t, 0.1, 0.9));
+    const aVis = t < 4 ? Math.min(inP, 1 - prog(t, 3.55, 3.95)) : 0;
+    const split = inOut(prog(t, 1.3, 2.2));
+    set("w-root", { o: t < 4 ? aVis : null, blur: lerp(18, 0, inP), s: lerp(1.05, 1, inP) * lerp(1, 0.92, split), y: lerp(0, -70, split) });
+    set("a-tag", { o: t < 4 ? Math.min(outCubic(prog(t, 0.5, 1.1)), 1 - prog(t, 3.55, 3.95)) : null });
+    const fVis = t < 4 ? Math.min(outCubic(prog(t, 1.35, 1.9)), 1 - prog(t, 3.55, 3.95)) : 0;
+    // forms start under the root and travel outwards
+    const lx = lerp(760, 250, split), rx = lerp(760, 1160, split);
+    if (t < 4) {
+      $("w-left").style.left = lx + "px";
+      $("w-right").style.left = rx + "px";
+      set("w-left", { o: fVis, y: lerp(-10, 150, split), s: lerp(0.8, 1, split) });
+      set("w-right", { o: fVis, y: lerp(-10, 150, split), s: lerp(0.8, 1, split) });
+      const gv = Math.min(outCubic(prog(t, 2.0, 2.5)), 1 - prog(t, 3.55, 3.95));
+      $("g-left").style.left = "250px"; $("g-right").style.left = "1160px";
+      set("g-left", { o: gv, y: 180 }); set("g-right", { o: gv, y: 180 }); set("g-root", { o: gv, y: -90 });
+      rise("a-head", t, 2.55, 3.95, 30, 0.5);
+      $("a-head").style.top = "860px";
+    }
+  }
+
+  // ---------------- Shot B: 4-8 s, the problem ----------------
+  if (t >= 4 && t < 8) textShot("B");
+  {
+    const v = vis(t, 4.05, 7.95, 0.5, 0.35);
+    const p = outExpo(prog(t, 4.05, 4.8));
+    const push = lerp(1, 1.05, prog(t, 4.5, 7.95));
+    set("b-form", { o: v, y: (1 - p) * 80, s: push });
+    set("b-col", { o: vis(t, 4.35, 7.95, 0.5, 0.35), y: (1 - outExpo(prog(t, 4.35, 5.1))) * 80 + (push - 1) * 120, s: push });
+  }
+
+  // ---------------- Shot C: 8-12 s, the reveal ----------------
+  if (t >= 8 && t < 12) {
+    textShot(null);
+    const conv = inOut(prog(t, 8.05, 9.15));
+    const fv = Math.min(outCubic(prog(t, 8.0, 8.35)), 1 - prog(t, 8.85, 9.2));
+    $("w-left").style.left = lerp(250, 760, conv) + "px";
+    $("w-right").style.left = lerp(1160, 760, conv) + "px";
+    set("w-left", { o: fv, y: lerp(150, 0, conv), s: lerp(1, 0.85, conv) });
+    set("w-right", { o: fv, y: lerp(150, 0, conv), s: lerp(1, 0.85, conv) });
+    set("g-left", { o: 0 }); set("g-right", { o: 0 }); set("g-root", { o: 0 }); set("a-head", { o: 0 }); set("a-tag", { o: 0 });
+    const lift = inOut(prog(t, 9.9, 10.6));
+    const rootV = Math.min(outCubic(prog(t, 8.7, 9.2)), 1 - prog(t, 10.2, 10.6));
+    set("w-root", { o: rootV, s: lerp(1, 0.55, lift), y: lerp(0, -230, lift) });
+    const lineP = outCubic(prog(t, 9.2, 9.85));
+    set("rootline", { o: Math.min(lineP * 1.5, 1 - prog(t, 10.2, 10.6)), extra: `scaleX(${lineP})`, y: lerp(0, -230, lift) });
+    rise("c-mark", t, 10.2, 11.95, 50, 0.7);
+    rise("c-tag", t, 10.85, 11.95, 24, 0.55);
+  } else {
+    set("rootline", { o: 0 }); set("c-mark", { o: 0 }); set("c-tag", { o: 0 });
+    if (t >= 4) { set("w-root", { o: 0 }); set("w-left", { o: 0 }); set("w-right", { o: 0 }); set("g-left", { o: 0 }); set("g-right", { o: 0 }); set("g-root", { o: 0 }); set("a-head", { o: 0 }); set("a-tag", { o: 0 }); }
+  }
+
+  // ---------------- Shot D: 12-16 s ----------------
+  if (t >= 12 && t < 16) textShot("D");
+  {
+    const v = vis(t, 12.05, 15.95, 0.5, 0.35);
+    const p = outExpo(prog(t, 12.05, 12.9));
+    const pan = inOut(prog(t, 12.6, 15.9));
+    set("d-shot", { o: v, y: (1 - p) * 120 });
+    // hold on the Xidid column ("12"), then glide right to Raw ("0")
+    const glide = inOut(prog(t, 13.6, 15.4));
+    $("d-shot").querySelector(".inner").style.transform = `translate(${-glide * 440}px, ${-pan * 40}px)`;
+  }
+
+  // ---------------- Shot E: 16-20 s ----------------
+  if (t >= 16 && t < 20) textShot("E");
+  {
+    const v = vis(t, 16.05, 19.95, 0.5, 0.35);
+    set("e-shot", { o: v, y: (1 - outExpo(prog(t, 16.05, 16.9))) * 90, s: lerp(1, 1.03, prog(t, 16.5, 19.95)) });
+    $("e-hl1").style.opacity = vis(t, 17.0, 18.4, 0.3, 0.3);
+    $("e-hl2").style.opacity = vis(t, 18.5, 19.8, 0.3, 0.3);
+    // start on the table, glide right to Contribution/Share, then back for the check line
+    const right = inOut(prog(t, 16.6, 17.6)) - inOut(prog(t, 18.0, 18.6));
+    $("e-shot").querySelector(".inner").style.transform = `translate(${-right * 330}px, -300px)`;
+  }
+
+  // ---------------- Shot F: 20-24 s ----------------
+  if (t >= 20 && t < 22) textShot("F1");
+  if (t >= 22 && t < 24) textShot("F2");
+  {
+    set("f-fig", { o: vis(t, 20.05, 21.95, 0.4, 0.3), x: (1 - outExpo(prog(t, 20.05, 20.8))) * 120 - outCubic(prog(t, 21.65, 21.95)) * 120 });
+    set("f-sb", { o: vis(t, 22.0, 23.95, 0.4, 0.35), x: (1 - outExpo(prog(t, 22.0, 22.75))) * 120 });
+    $("f-sb").querySelector(".inner").style.transform = `translateX(${-inOut(prog(t, 22.6, 23.7)) * 440}px)`;
+  }
+
+  // text column visibility for B, D, E, F1, F2
+  if (t >= 4 && t < 8) textBlock(t, 4.2, 7.95);
+  else if (t >= 12 && t < 16) textBlock(t, 12.2, 15.95);
+  else if (t >= 16 && t < 20) textBlock(t, 16.2, 19.95);
+  else if (t >= 20 && t < 22) textBlock(t, 20.1, 21.95);
+  else if (t >= 22 && t < 24) textBlock(t, 22.05, 23.95);
+  else { set("t-eyebrow", { o: 0 }); set("t-head", { o: 0 }); set("t-sub", { o: 0 }); }
+
+  // ---------------- Shot G: 24-30 s, end card ----------------
+  rise("g-mark", t, 24.15, 31, 50, 0.75);
+  rise("g-tag", t, 24.8, 31, 26, 0.6);
+  rise("g-btn", t, 25.4, 31, 26, 0.6);
+  rise("g-fine", t, 26.0, 31, 16, 0.6);
+  const glow = Math.sin(Math.PI * prog(t, 26.6, 27.6));
+  $("g-btn").querySelector(".btn").style.boxShadow = `0 0 ${glow * 60}px ${glow * 8}px rgba(95,163,146,${0.45 * glow})`;
+
+  // loop seam: fade to ink in the last 0.4 s (the film starts on ink)
+  $("fade").style.opacity = prog(t, 29.6, 30);
+
+  // subtle animated grain, seeded per frame so renders are repeatable
+  drawGrain(Math.floor(t * 30));
+}
+
+function drawGrain(seed) {
+  const c = $("grain"), g = c.getContext("2d");
+  const img = g.createImageData(c.width, c.height);
+  let s = (seed * 2654435761) >>> 0;
+  for (let i = 0; i < img.data.length; i += 4) {
+    s ^= s << 13; s >>>= 0; s ^= s >> 17; s ^= s << 5; s >>>= 0;
+    const v = s & 255;
+    img.data[i] = img.data[i + 1] = img.data[i + 2] = v;
+    img.data[i + 3] = 255;
+  }
+  g.putImageData(img, 0, 0);
+}
+
+window.render = render;
+window.ready = Promise.all([document.fonts.ready, ...[...document.images].map((im) => (im.complete ? 1 : new Promise((r) => (im.onload = r))))]);
+render(0);
+</script>
+</body>
+</html>

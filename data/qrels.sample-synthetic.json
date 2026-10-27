@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "poolDepth": 10,
+  "judge": "SYNTHETIC (keyword rule) - for testing the dashboard only",
+  "notes": "NOT REAL RELEVANCE JUDGMENTS. Each pooled document was marked relevant if its text contains a hand-picked word pattern for the query. Use only to check that the Evaluation tab works; never present these numbers.",
+  "queries": [
+    {
+      "id": "q01",
+      "text": "dugsi",
+      "gloss": "school",
+      "need": "Documents about schools or schooling (school rules, school history, school exams).",
+      "judgments": {
+        "sopc-v2-148": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-21": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-24": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-138": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-312": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-267": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-261": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-275": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-273": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-269": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-255": {
+          "rel": 1,
+          "unsure": false
+        }
+      }
+    },
+    {
+      "id": "q02",
+      "text": "saacad",
+      "gloss": "hour; clock",
+      "need": "Documents where hours or clock time matter (hours of sleep, opening hours, timetables).",
+      "judgments": {
+        "sopc-v2-15": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-136": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-261": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-255": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-89": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-118": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-151": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-87": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-62": {
+          "rel": 1,
+          "unsure": false
+        }
+      }
+    },
+    {
+      "id": "q03",
+      "text": "lambar",
+      "gloss": "number",
+      "need": "Documents about personal or account numbers: PINs, phone numbers, passwords or codes.",
+      "judgments": {
+        "sopc-v2-211": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-206": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-18": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-172": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-110": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-111": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-88": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-117": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-114": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-119": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-87": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-185": {
+          "rel": 1,
+          "unsure": false
+        }
+      }
+    },
+    {
+      "id": "q04",
+      "text": "guri",
+      "gloss": "house; home",
+      "need": "Documents about houses, homes or home life.",
+      "judgments": {
+        "sopc-v2-6": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-377": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-1": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-53": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-129": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-126": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-272": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-104": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-101": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-119": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-65": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-666": {
+          "rel": 1,
+          "unsure": false
+        }
+      }
+    },
+    {
+      "id": "q05",
+      "text": "magaalada",
+      "gloss": "the city",
+      "need": "Documents about a city, or events taking place in a city.",
+      "judgments": {
+        "sopc-v2-2124": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-7": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-1297": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-1295": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-1299": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-48": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-49": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-149": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-5495": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-316": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-453": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-265": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-1207": {
+          "rel": 1,
+          "unsure": false
+        }
+      }
+    },
+    {
+      "id": "q06",
+      "text": "safar",
+      "gloss": "journey; travel",
+      "need": "Documents about travel or journeys.",
+      "judgments": {
+        "sopc-v2-19": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-136": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-121": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-875": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-5495": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-461": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-380": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-273": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-227": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-114": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-98": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-61": {
+          "rel": 1,
+          "unsure": false
+        }
+      }
+    },
+    {
+      "id": "q07",
+      "text": "tallaalka carruurta",
+      "gloss": "the vaccination; the children",
+      "need": "Documents about vaccinating children.",
+      "judgments": {
+        "sopc-v2-540": {
+          "rel": 0,
+          "unsure": false
+        },
+        "sopc-v2-494": {
+          "rel": 0,
+          "unsure": false
+        },
+        "sopc-v2-374": {
+          "rel": 0,
+          "unsure": false
+        },
+        "sopc-v2-1": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-148": {
+          "rel": 0,
+          "unsure": false
+        },
+        "sopc-v2-143": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-452": {
+          "rel": 0,
+          "unsure": false
+        },
+        "sopc-v2-380": {
+          "rel": 0,
+          "unsure": false
+        },
+        "sopc-v2-272": {
+          "rel": 0,
+          "unsure": false
+        },
+        "sopc-v2-268": {
+          "rel": 0,
+          "unsure": false
+        },
+        "sopc-v2-269": {
+          "rel": 0,
+          "unsure": false
+        },
+        "sopc-v2-118": {
+          "rel": 0,
+          "unsure": false
+        }
+      }
+    },
+    {
+      "id": "q08",
+      "text": "lacag",
+      "gloss": "money",
+      "need": "Documents about money: payments, saving, budgets or finance.",
+      "judgments": {
+        "sopc-v2-3": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-49": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-29": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-41": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-148": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-44": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-45": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-46": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-47": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-277": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-117": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-87": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-95": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-94": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-92": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-61": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-696": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-666": {
+          "rel": 1,
+          "unsure": false
+        }
+      }
+    },
+    {
+      "id": "q09",
+      "text": "ubax",
+      "gloss": "flower",
+      "need": "Documents about flowers.",
+      "judgments": {
+        "sopc-v2-34": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-960": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-334": {
+          "rel": 1,
+          "unsure": false
+        }
+      }
+    },
+    {
+      "id": "q10",
+      "text": "kariyo",
+      "gloss": "cooked; to cook",
+      "need": "Documents about cooking or preparing food.",
+      "judgments": {
+        "sopc-v2-104": {
+          "rel": 1,
+          "unsure": false
+        },
+        "sopc-v2-60": {
+          "rel": 1,
+          "unsure": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6285 @@
+{
+ "version": 1,
+ "source": "data/corpus.json",
+ "vocabularySize": 4962,
+ "snowballMergedGroups": 869,
+ "instructions": "Groups: mark every word form that is NOT a form of the same basic word as the others. Comparisons: choose which group of words belongs with the word shown.",
+ "groups": [
+  {
+   "id": "p001",
+   "sample": "practice",
+   "stem": "saacad",
+   "totalForms": 6,
+   "forms": [
+    {
+     "form": "saacadaha",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-151",
+      "text": "…in xarumaha adeeggu ay shaqeyn doonaan saacadaha dheeraadka ah laga bilaabo Sabtida soo…",
+      "word": "saacadaha"
+     }
+    },
+    {
+     "form": "saacad",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…Isku day inaad telefoonka iska dhigto saacad ka hor inta aadan seexan, oo…",
+      "word": "saacad"
+     }
+    },
+    {
+     "form": "saacadda",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-118",
+      "text": "…Wakiilka: Haa, waxaa jira boos bannaan saacadda sagaalka subaxnimo. Ma ku habboon yahay…",
+      "word": "saacadda"
+     }
+    },
+    {
+     "form": "saacaddii",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-87",
+      "text": "…ka soo baxday shirkad dibedda ah saacaddii labaad ee habeenimo. Ma adigaa wax…",
+      "word": "saacaddii"
+     }
+    },
+    {
+     "form": "saacaddu",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-136",
+      "text": "…waxay bixi doontaa subaxda berri ah saacaddu markay tahay sideedda. Muwaadinku: Fadlan ii…",
+      "word": "saacaddu"
+     }
+    },
+    {
+     "form": "saacadood",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…Waa run, laakiin haddii aadan helin 7-8 saacadood oo hurdo ah, jidhkaagu ma awoodo…",
+      "word": "saacadood"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p002",
+   "sample": "practice",
+   "stem": "xaalad",
+   "totalForms": 7,
+   "forms": [
+    {
+     "form": "xaaladda",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-16",
+      "text": "…Waa maxay caafimaadka maskaxdu? J: Waa xaaladda fayoobida ee qofku uu ku ogaanayo…",
+      "word": "xaaladda"
+     }
+    },
+    {
+     "form": "xaalad",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-47",
+      "text": "…ilaa lix bilood haddii ay timaaddo xaalad adag",
+      "word": "xaalad"
+     }
+    },
+    {
+     "form": "xaaladaha",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-128",
+      "text": "…lagu waaniyo dhalinyarada ama lagu xalliyo xaaladaha adag. Tusaale ahaan, maahmaahyada ku saabsan…",
+      "word": "xaaladaha"
+     }
+    },
+    {
+     "form": "xaaladdii",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-9",
+      "text": "…socda, taas oo horseedi karta in xaaladdii nololeed ee adkayd ay soo hagaagto",
+      "word": "xaaladdii"
+     }
+    },
+    {
+     "form": "xaaladdu",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-139",
+      "text": "…dib. Macaamiil: Waan sameeyay sidaas, balse xaaladdu sidii bay ahayd. Farsamo yaqaanka: Hadda…",
+      "word": "xaaladdu"
+     }
+    },
+    {
+     "form": "xaalado",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-92",
+      "text": "…lagu badbaadiyo ganacsiga marka la kulmo xaalado degdeg ah ama suuqa oo hoos…",
+      "word": "xaalado"
+     }
+    },
+    {
+     "form": "xaaladood",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-35",
+      "text": "…waxay caalami ahaan u jirtaa saddex xaaladood oo waaweyn: adke, dareere, iyo gaas…",
+      "word": "xaaladood"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p003",
+   "sample": "practice",
+   "stem": "dugsi",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "dugsiga",
+     "count": 11,
+     "example": {
+      "docId": "sopc-v2-21",
+      "text": "…baahan yahay inay soo gudbiyaan shahaadada dugsiga sare oo la xaqiijiyay, koobiga aqoonsiga…",
+      "word": "dugsiga"
+     }
+    },
+    {
+     "form": "dugsiyada",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-148",
+      "text": "…Sare waxay ku wargelineysaa dhammaan maamulayaasha dugsiyada dowladda iyo kuwa gaarka loo leeyahay…",
+      "word": "dugsiyada"
+     }
+    },
+    {
+     "form": "dugsiyadii",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-275",
+      "text": "Dugsiyadii sare ee ugu horreeyay ee dalka…",
+      "word": "Dugsiyadii"
+     }
+    },
+    {
+     "form": "dugsiyadu",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-148",
+      "text": "…soo socota. Waxaa la adkeeyay inaysan dugsiyadu qaadi karin wax lacago ah oo…",
+      "word": "dugsiyadu"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p004",
+   "sample": "practice",
+   "stem": "kar",
+   "totalForms": 8,
+   "forms": [
+    {
+     "form": "kartaa",
+     "count": 21,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…cabitaannada iyo macmacaanka warshadaysan waxay keeni kartaa cayil iyo xanuunka macaanka. S: Sidee…",
+      "word": "kartaa"
+     }
+    },
+    {
+     "form": "karo",
+     "count": 17,
+     "example": {
+      "docId": "sopc-v2-57",
+      "text": "…aan ogeyn in haraadku uu keeni karo daal, madax-xanuun, iyo feejignaan xumo…",
+      "word": "karo"
+     }
+    },
+    {
+     "form": "karaa",
+     "count": 13,
+     "example": {
+      "docId": "sopc-v2-16",
+      "text": "…ah. S: Sidee ayaan u horumarin karaa caafimaadka maskaxdayda? J: Adigoo la xidhiidha…",
+      "word": "karaa"
+     }
+    },
+    {
+     "form": "karin",
+     "count": 11,
+     "example": {
+      "docId": "sopc-v2-98",
+      "text": "…waana qayb aan marnaba kala go'i karin dhaqanka suugaaneed ee dalka",
+      "word": "karin"
+     }
+    },
+    {
+     "form": "karaan",
+     "count": 8,
+     "example": {
+      "docId": "sopc-v2-72",
+      "text": "Sidee beeralaydu ula qabsan karaan isbeddelka cimilada? Mid ka mid ah…",
+      "word": "karaan"
+     }
+    },
+    {
+     "form": "karta",
+     "count": 7,
+     "example": {
+      "docId": "sopc-v2-9",
+      "text": "…toddobaadyada soo socda, taas oo horseedi karta in xaaladdii nololeed ee adkayd ay…",
+      "word": "karta"
+     }
+    },
+    {
+     "form": "karka",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-14",
+      "text": "…daba-dheeraada sida macaanka iyo dhiig-karka",
+      "word": "karka"
+     }
+    },
+    {
+     "form": "karnaa",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-162",
+      "text": "Axmed: Maxaan sameyn karnaa si aan u badbaadino biyaha beertayada…",
+      "word": "karnaa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p005",
+   "sample": "practice",
+   "stem": "mar",
+   "totalForms": 14,
+   "forms": [
+    {
+     "form": "marka",
+     "count": 51,
+     "example": {
+      "docId": "sopc-v2-13",
+      "text": "…tiirarka ugu muhiimsan ee caafimaadka wanaagsan. Marka aad jimicsi samayso, wadnahaagu wuu xoogaysanayaa…",
+      "word": "Marka"
+     }
+    },
+    {
+     "form": "markii",
+     "count": 19,
+     "example": {
+      "docId": "sopc-v2-29",
+      "text": "…in la isticmaalo dhexdhexaadiye ama dilaal markii la iibinayo dalagga? Jawaab: Dilaashadu waxay…",
+      "word": "markii"
+     }
+    },
+    {
+     "form": "mar",
+     "count": 16,
+     "example": {
+      "docId": "sopc-v2-46",
+      "text": "…shaqeynayay. Si kastaba ha ahaatee, wuxuu mar walba ka caban jiray inaysan jirin…",
+      "word": "mar"
+     }
+    },
+    {
+     "form": "marin",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-67",
+      "text": "…iyo faa'iidada. Dawacadii markay aragtay inaysan marin habaabin karin ayay iskaga tagtay. Sheekadu…",
+      "word": "marin"
+     }
+    },
+    {
+     "form": "martay",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-267",
+      "text": "…waxbarashada ee Geeska Afrika waxay soo martay marxalado kala duwan. Bilowgii hore, nidaamka…",
+      "word": "martay"
+     }
+    },
+    {
+     "form": "maray",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-453",
+      "text": "…ka qabay mustaqbalka. Markii uu soo maray buurta dheer, wuxuu arkay iftiinka magaaladii…",
+      "word": "maray"
+     }
+    },
+    {
+     "form": "mareen",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-138",
+      "text": "…Faadumo, sidee bay wax kuugu soo mareen dugsiga maanta? Faadumo: Waa ay fiicnaayeen…",
+      "word": "mareen"
+     }
+    },
+    {
+     "form": "markiiba",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-87",
+      "text": "…muhiim ah inaan joojino kaarkaas isla markiiba si aan u ilaalino akoonkaaga. Macaamiil…",
+      "word": "markiiba"
+     }
+    },
+    {
+     "form": "marnaba",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-98",
+      "text": "…iyo gabadha Soomaaliyeed, waana qayb aan marnaba kala go'i karin dhaqanka suugaaneed ee…",
+      "word": "marnaba"
+     }
+    },
+    {
+     "form": "marayay",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-69",
+      "text": "Labo saaxiib ayaa marayay kayn weyn. Waxay isku ballameen inay…",
+      "word": "marayay"
+     }
+    },
+    {
+     "form": "marayey",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-688",
+      "text": "…Cali. Waxaan ahaa darawal gaari oo marayey waddada habeenkii dhacdadu dhacday. Qareenka: Maxaad…",
+      "word": "marayey"
+     }
+    },
+    {
+     "form": "marinkii",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-656",
+      "text": "…aan joogsi lahayn ayaa soo gashay marinkii, waxayna ku guuleysatay tartankii. Casharku waa…",
+      "word": "marinkii"
+     }
+    },
+    {
+     "form": "maro",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-669",
+      "text": "…taabtay dhegihiisa oo yiri 'Waa sida maro weyn'. Waxay bilaabeen inay isku khilaafaan…",
+      "word": "maro"
+     }
+    },
+    {
+     "form": "marta",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-3927",
+      "text": "…afgarad iyo kalsooni buuxda oo dhex marta xubnaha bulshada",
+      "word": "marta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t001",
+   "sample": "top",
+   "stem": "wax",
+   "totalForms": 6,
+   "forms": [
+    {
+     "form": "waxay",
+     "count": 240,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…lagu daro cabitaannada iyo macmacaanka warshadaysan waxay keeni kartaa cayil iyo xanuunka macaanka…",
+      "word": "waxay"
+     }
+    },
+    {
+     "form": "waxaa",
+     "count": 148,
+     "example": {
+      "docId": "sopc-v2-12",
+      "text": "…waxayna ka ilaalisaa maqaarka inuu engego. Waxaa lagula talinayaa in qofku cabbo ugu…",
+      "word": "Waxaa"
+     }
+    },
+    {
+     "form": "waxaan",
+     "count": 59,
+     "example": {
+      "docId": "sopc-v2-20",
+      "text": "…magacaaga oo buuxa iyo lambarkaaga aqoonsiga. Waxaan kugula talineynaa inaad timaaddo shan iyo…",
+      "word": "Waxaan"
+     }
+    },
+    {
+     "form": "wax",
+     "count": 43,
+     "example": {
+      "docId": "sopc-v2-16",
+      "text": "…walwalka nolosha, uuna u shaqaynayo si wax ku ool ah. S: Sidee ayaan…",
+      "word": "wax"
+     }
+    },
+    {
+     "form": "waxayna",
+     "count": 19,
+     "example": {
+      "docId": "sopc-v2-12",
+      "text": "…dheef-shiidka, waxay nadiifisaa sunta jidhka, waxayna ka ilaalisaa maqaarka inuu engego. Waxaa…",
+      "word": "waxayna"
+     }
+    },
+    {
+     "form": "waxaana",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-101",
+      "text": "…leedahay dhibaatooyin caafimaad oo halis ah, waxaana ka mid ah cayilka xad-dhaafka…",
+      "word": "waxaana"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t002",
+   "sample": "top",
+   "stem": "waa",
+   "totalForms": 6,
+   "forms": [
+    {
+     "form": "waa",
+     "count": 317,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…dabiiciga ah ee laga helo midhaha waa mid caafimaad leh, laakiin sonkorta lagu…",
+      "word": "waa"
+     }
+    },
+    {
+     "form": "waayo",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-22",
+      "text": "…kooban, cad, oo muujinaya xirfadahaaga iyo waayo-aragnimadaada. Hubi in aad ku bilowdo…",
+      "word": "waayo"
+     }
+    },
+    {
+     "form": "waana",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-98",
+      "text": "…ay dumarka Soomaaliyeed u gaar yihiin, waana qaab maanso oo xambaarsan dareen, dhiirigelin…",
+      "word": "waana"
+     }
+    },
+    {
+     "form": "waagii",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-52",
+      "text": "…udub-dhexaadka dhaqanka Soomaaliyeed. Tan iyo waagii hore, gabaygu wuxuu ahaa habka ugu…",
+      "word": "waagii"
+     }
+    },
+    {
+     "form": "waagu",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-454",
+      "text": "…hiddaha iyo dhaqanka ah. Markii ay waagu baryay, doonidooda waxay ku soo laabatay…",
+      "word": "waagu"
+     }
+    },
+    {
+     "form": "waayahay",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-89",
+      "text": "…wici doona saacadaha soo socda. Macaamiil: Waayahay, waan sugayaa mahadsanid",
+      "word": "Waayahay"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t003",
+   "sample": "top",
+   "stem": "ayaa",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "ayaa",
+     "count": 221,
+     "example": {
+      "docId": "sopc-v2-1",
+      "text": "Wasaaradda caafimaadka ayaa si rasmi ah u bilowday olole…",
+      "word": "ayaa"
+     }
+    },
+    {
+     "form": "ayaana",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-37",
+      "text": "…tamarta ugu weyn ee nidaamkan, iyada ayaana bixisa iftiinka iyo kulaylka ay ku…",
+      "word": "ayaana"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t004",
+   "sample": "top",
+   "stem": "aad",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "aad",
+     "count": 171,
+     "example": {
+      "docId": "sopc-v2-13",
+      "text": "…ugu muhiimsan ee caafimaadka wanaagsan. Marka aad jimicsi samayso, wadnahaagu wuu xoogaysanayaa, wareegga…",
+      "word": "aad"
+     }
+    },
+    {
+     "form": "aadaan",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-61",
+      "text": "…Axmed wuxuu soo jeediyay in ay aadaan magaalada xeebta ah ee Kismaayo si…",
+      "word": "aadaan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t005",
+   "sample": "top",
+   "stem": "wuxuu",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "wuxuu",
+     "count": 154,
+     "example": {
+      "docId": "sopc-v2-12",
+      "text": "Biyuhu waa nolosha aadanaha. Jidhka bini'aadamku wuxuu ka kooban yahay boqolkiiba toddobaatan biyo…",
+      "word": "wuxuu"
+     }
+    },
+    {
+     "form": "wuxuuna",
+     "count": 17,
+     "example": {
+      "docId": "sopc-v2-13",
+      "text": "…kaloo yareeyaa walwalka iyo niyad-jabka, wuxuuna ka caawiyaa qofka inuu helo hurdo…",
+      "word": "wuxuuna"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t006",
+   "sample": "top",
+   "stem": "mid",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "mid",
+     "count": 152,
+     "example": {
+      "docId": "sopc-v2-1",
+      "text": "…ee ku soo badanaya qaar ka mid ah gobollada dalka. Shaqaalaha caafimaadka ayaa…",
+      "word": "mid"
+     }
+    },
+    {
+     "form": "midka",
+     "count": 6,
+     "example": {
+      "docId": "sopc-v2-85",
+      "text": "…hab lagu muujiyo isku-dhufashada isku midka ah ee tiro nafteeda ah. Tusaale…",
+      "word": "midka"
+     }
+    },
+    {
+     "form": "midhaha",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…Sonkorta dabiiciga ah ee laga helo midhaha waa mid caafimaad leh, laakiin sonkorta…",
+      "word": "midhaha"
+     }
+    },
+    {
+     "form": "midna",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-70",
+      "text": "…waxay ku ridday karooto, mid ukun, midna qaxwo. Muddo ka dib, karootadii way…",
+      "word": "midna"
+     }
+    },
+    {
+     "form": "midkiiba",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-81",
+      "text": "…ahaan, haddii aad haysato 3 kooxood oo midkiiba uu ku jiro 4 tufaax, si aad…",
+      "word": "midkiiba"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t007",
+   "sample": "top",
+   "stem": "loo",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "loo",
+     "count": 120,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…cayil iyo xanuunka macaanka. S: Sidee loo yareeyaa isticmaalka sonkorta? J: Isku day…",
+      "word": "loo"
+     }
+    },
+    {
+     "form": "looga",
+     "count": 19,
+     "example": {
+      "docId": "sopc-v2-1",
+      "text": "…ka yar shanta sano. Ololahan ayaa looga golleeyahay in looga hortago cudurrada faafa…",
+      "word": "looga"
+     }
+    },
+    {
+     "form": "loogu",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-150",
+      "text": "…raashin iyo biyo nadiif ah oo loogu talagalay qoysaska ay abaaruhu saameeyeen ee…",
+      "word": "loogu"
+     }
+    },
+    {
+     "form": "loona",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-46",
+      "text": "…loo qoro dhammaan dakhliga iyo kharashka, loona kala saaro lacagta shirkadda iyo tan…",
+      "word": "loona"
+     }
+    },
+    {
+     "form": "loogaga",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-2474",
+      "text": "…xarumaha loo asteeyay. Muwaadin kasta waxaa loogaga baahan yahay inuu soo bandhigo dukumeenti…",
+      "word": "loogaga"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t008",
+   "sample": "top",
+   "stem": "aan",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "aan",
+     "count": 129,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…beddesho cabitaannada macaan biyo ama shaah aan sonkor lahayn",
+      "word": "aan"
+     }
+    },
+    {
+     "form": "aanta",
+     "count": 4,
+     "example": null
+    }
+   ]
+  },
+  {
+   "id": "t009",
+   "sample": "top",
+   "stem": "lagu",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "lagu",
+     "count": 109,
+     "example": {
+      "docId": "sopc-v2-1",
+      "text": "…ah u bilowday olole ballaaran oo lagu tallaalayo carruurta ka yar shanta sano…",
+      "word": "lagu"
+     }
+    },
+    {
+     "form": "laguna",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-101",
+      "text": "…calaamadaha ku qoran cuntooyinka la iibiyo, laguna beddelo cabitaannada sonkorta leh biyo ama…",
+      "word": "laguna"
+     }
+    },
+    {
+     "form": "lagugu",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-175",
+      "text": "…muhiimka ah haddii kombiyuutarkaagu jabto ama lagugu haysto madax-furasho (ransomware). Waa in…",
+      "word": "lagugu"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t010",
+   "sample": "top",
+   "stem": "badan",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "badan",
+     "count": 107,
+     "example": {
+      "docId": "sopc-v2-14",
+      "text": "…karbohaydraytyada adag. Iska ilaali cunista sonkorta badan iyo dufanka xad-dhaafka ah. Cunista…",
+      "word": "badan"
+     }
+    },
+    {
+     "form": "badantahay",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-27",
+      "text": "…saxda ah ee xilliyada ay badeecaddu badantahay waxay noqon kartaa xalka ugu fiican…",
+      "word": "badantahay"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t011",
+   "sample": "top",
+   "stem": "jir",
+   "totalForms": 12,
+   "forms": [
+    {
+     "form": "jiray",
+     "count": 31,
+     "example": {
+      "docId": "sopc-v2-165",
+      "text": "…Soomaaliya, waxaa noolaa beeraley la oran jiray Muuse oo markasta ka caban jiray…",
+      "word": "jiray"
+     }
+    },
+    {
+     "form": "jireen",
+     "count": 15,
+     "example": {
+      "docId": "sopc-v2-2",
+      "text": "…sheekooyinka iyo maahmaahyada ay odayaasheenu sheegi jireen. Saxafi: Muxuu yahay fariinta aad u…",
+      "word": "jireen"
+     }
+    },
+    {
+     "form": "jiro",
+     "count": 11,
+     "example": {
+      "docId": "sopc-v2-159",
+      "text": "…ku qabtaan biyaha roobka inta lagu jiro xilliga da'da, si ay ugu isticmaalaan…",
+      "word": "jiro"
+     }
+    },
+    {
+     "form": "jiraan",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-107",
+      "text": "…in cuntooyinka la farsameeyay ay ku jiraan cusbo badan oo qarsoon. Si loo…",
+      "word": "jiraan"
+     }
+    },
+    {
+     "form": "jirin",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-45",
+      "text": "…ku jiro warqadaha sare, haddii aysan jirin lacag caddaan ah oo gacanta ku…",
+      "word": "jirin"
+     }
+    },
+    {
+     "form": "jirtay",
+     "count": 8,
+     "example": {
+      "docId": "sopc-v2-9",
+      "text": "…dalka Somalia, halkaas oo ay ka jirtay abaar baahsan oo saameysay nolosha reer…",
+      "word": "jirtay"
+     }
+    },
+    {
+     "form": "jirtaa",
+     "count": 7,
+     "example": {
+      "docId": "sopc-v2-116",
+      "text": "…salaaman tihiin. Baasto iyo sharaab, miyay jirtaa wax kale oo aad ku dareyso…",
+      "word": "jirtaa"
+     }
+    },
+    {
+     "form": "jirta",
+     "count": 6,
+     "example": {
+      "docId": "sopc-v2-58",
+      "text": "…uu u ogaado heerka sonkorta ku jirta. Sidoo kale, waxaa la doorbidayaa in…",
+      "word": "jirta"
+     }
+    },
+    {
+     "form": "jiraa",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-88",
+      "text": "…eegayaa nidaamka. Dalabkaagii wuxuu hadda ku jiraa xarunta qaybinta ee magaaladaada. Wakiilka: Waxaa…",
+      "word": "jiraa"
+     }
+    },
+    {
+     "form": "jirka",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-39",
+      "text": "…arrin aad muhiim ugu ah caafimaadka jirka bini'aadamka. Biyuhu waxay caawiyaan dheef-shiidka…",
+      "word": "jirka"
+     }
+    },
+    {
+     "form": "jireenka",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-51",
+      "text": "…la dhowro aqoonsiga iyo taariikhda soo jireenka ah ee ummadda",
+      "word": "jireenka"
+     }
+    },
+    {
+     "form": "jir",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-64",
+      "text": "…saac si ay u ilaashadaan caafimaadkooda jir iyo maskaxeed",
+      "word": "jir"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t012",
+   "sample": "top",
+   "stem": "wakiil",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "wakiilka",
+     "count": 79,
+     "example": {
+      "docId": "sopc-v2-118",
+      "text": "Wakiilka: Isbitaalka Guud ee Badbaado, magacaygu waa…",
+      "word": "Wakiilka"
+     }
+    },
+    {
+     "form": "wakiilo",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-48",
+      "text": "…dhaqaale ayaa waxaa goobjoog ka ah wakiilo ka socda beesha caalamka. Madaxweynaha dalka…",
+      "word": "wakiilo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t013",
+   "sample": "top",
+   "stem": "macaamiil",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "macaamiil",
+     "count": 71,
+     "example": {
+      "docId": "sopc-v2-118",
+      "text": "…magacaygu waa Nimco. Sideen ku caawiyaa? Macaamiil: Salaan, waxaan rabay inaan ballan la…",
+      "word": "Macaamiil"
+     }
+    },
+    {
+     "form": "macaamiilku",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-183",
+      "text": "…ee guusha ganacsi kasta. Marka uu macaamiilku soo bandhigo dhibaato ama cabasho, waxaa…",
+      "word": "macaamiilku"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t014",
+   "sample": "top",
+   "stem": "had",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "haddii",
+     "count": 50,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…waqti hore. Axmed: Waa run, laakiin haddii aadan helin 7-8 saacadood oo hurdo ah…",
+      "word": "haddii"
+     }
+    },
+    {
+     "form": "hadda",
+     "count": 12,
+     "example": {
+      "docId": "sopc-v2-86",
+      "text": "…so. Wakiilka: Waad mahadsan tahay Faadumo. Hadda waxaan kuu soo diray xiriir aad…",
+      "word": "Hadda"
+     }
+    },
+    {
+     "form": "haddana",
+     "count": 6,
+     "example": {
+      "docId": "sopc-v2-86",
+      "text": "…Waan helay xiriirka. Waan bedelay furaha, haddana waan galay akoonkayga. Wakiilka: Aad bay…",
+      "word": "haddana"
+     }
+    },
+    {
+     "form": "haddaba",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-87",
+      "text": "…habeenkii ma iibsado wax walba. Wakiilka: Haddaba waxaa muhiim ah inaan joojino kaarkaas…",
+      "word": "Haddaba"
+     }
+    },
+    {
+     "form": "had",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-272",
+      "text": "Haweenku waxay had iyo jeer door muhiim ah ka…",
+      "word": "had"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t015",
+   "sample": "top",
+   "stem": "kal",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "kale",
+     "count": 64,
+     "example": {
+      "docId": "sopc-v2-56",
+      "text": "…iyo xanuunnada ku dhaca wadnaha. Sidoo kale, waxay xoojisaa hab-dhiska difaaca jidhka…",
+      "word": "kale"
+     }
+    },
+    {
+     "form": "kalena",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-331",
+      "text": "…ka hortag ah oo difaacaysa, sidoo kalena aan ka jarno caleemaha hoose ee…",
+      "word": "kalena"
+     }
+    },
+    {
+     "form": "kaloo",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-13",
+      "text": "…wuu fiicnaanayaa. Jimicsiga joogtada ah wuxuu kaloo yareeyaa walwalka iyo niyad-jabka, wuxuuna…",
+      "word": "kaloo"
+     }
+    },
+    {
+     "form": "kalyaha",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-107",
+      "text": "…oo khatar ku ah wadnaha iyo kalyaha. Dad badan ayaan ogayn in cuntooyinka…",
+      "word": "kalyaha"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t016",
+   "sample": "top",
+   "stem": "yar",
+   "totalForms": 7,
+   "forms": [
+    {
+     "form": "yar",
+     "count": 52,
+     "example": {
+      "docId": "sopc-v2-1",
+      "text": "…ballaaran oo lagu tallaalayo carruurta ka yar shanta sano. Ololahan ayaa looga golleeyahay…",
+      "word": "yar"
+     }
+    },
+    {
+     "form": "yaraan",
+     "count": 11,
+     "example": {
+      "docId": "sopc-v2-12",
+      "text": "…lagula talinayaa in qofku cabbo ugu yaraan siddeed koob oo biyo ah maalintii…",
+      "word": "yaraan"
+     }
+    },
+    {
+     "form": "yaraynaysaa",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-72",
+      "text": "…uu u baahan yahay. Tani waxay yaraynaysaa khasaaraha biyaha waxayna ka caawinaysaa dalagga…",
+      "word": "yaraynaysaa"
+     }
+    },
+    {
+     "form": "yaraada",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-71",
+      "text": "…oo dhanka dalagga ah. Biyaha oo yaraada waxay keenaysaa in carrada ay qallasho…",
+      "word": "yaraada"
+     }
+    },
+    {
+     "form": "yaraysaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-335",
+      "text": "…ah u qalajiso carrada. Tani waxay yaraysaa baahida loo qabo waraabinta joogtada ah…",
+      "word": "yaraysaa"
+     }
+    },
+    {
+     "form": "yaree",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-44",
+      "text": "…gartaa halka ay baxdo lacagtaadu. Iska yaree kharashaadka hawlgalka ee aan muhiimka ahayn…",
+      "word": "yaree"
+     }
+    },
+    {
+     "form": "yaryahay",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-129",
+      "text": "…iyo tixgelin leh, xitaa haddii ay yaryahay waxa guriga yaalla. Martida waxaa la…",
+      "word": "yaryahay"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t017",
+   "sample": "top",
+   "stem": "hor",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "hore",
+     "count": 39,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…igu adag tahay inaan seexdo waqti hore. Axmed: Waa run, laakiin haddii aadan…",
+      "word": "hore"
+     }
+    },
+    {
+     "form": "hor",
+     "count": 20,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…inaad telefoonka iska dhigto saacad ka hor inta aadan seexan, oo qolkaaga ka…",
+      "word": "hor"
+     }
+    },
+    {
+     "form": "horay",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-19",
+      "text": "…karaa taariikhda tigidhka diyaaradda ee aan horay u qabsaday? Jawaab: Haa, waad beddeli…",
+      "word": "horay"
+     }
+    },
+    {
+     "form": "hortaga",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-74",
+      "text": "…la dhiso xirmooyin xooggan oo ka hortaga fatahaadaha si loo badbaadiyo nolosha beeralayda…",
+      "word": "hortaga"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t018",
+   "sample": "top",
+   "stem": "sid",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "sidoo",
+     "count": 28,
+     "example": {
+      "docId": "sopc-v2-56",
+      "text": "…karka, iyo xanuunnada ku dhaca wadnaha. Sidoo kale, waxay xoojisaa hab-dhiska difaaca…",
+      "word": "Sidoo"
+     }
+    },
+    {
+     "form": "sidee",
+     "count": 17,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…kartaa cayil iyo xanuunka macaanka. S: Sidee loo yareeyaa isticmaalka sonkorta? J: Isku…",
+      "word": "Sidee"
+     }
+    },
+    {
+     "form": "sideen",
+     "count": 16,
+     "example": {
+      "docId": "sopc-v2-20",
+      "text": "Su'aal: Sideen ula ballami karaa takhasusle isbitaalka dhexdiisa…",
+      "word": "Sideen"
+     }
+    },
+    {
+     "form": "siday",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-17",
+      "text": "…dib ugu xira. Haddii dhibaatadu ay siday u taallo, hubi in fiilooyinka ay…",
+      "word": "siday"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t019",
+   "sample": "top",
+   "stem": "gaar",
+   "totalForms": 10,
+   "forms": [
+    {
+     "form": "gaar",
+     "count": 36,
+     "example": {
+      "docId": "sopc-v2-105",
+      "text": "Maskaxdu waxay u baahan tahay nafaqooyin gaar ah si ay si wanaagsan u…",
+      "word": "gaar"
+     }
+    },
+    {
+     "form": "gaarka",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-47",
+      "text": "…ka bilaabaysaa adigoo kala saara akoonkaaga gaarka ah iyo kan shirkadda, dabadeedna qoraya…",
+      "word": "gaarka"
+     }
+    },
+    {
+     "form": "gaareen",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-267",
+      "text": "…iyo dhaqanka ah. Markii ay soo gaareen gumeystayaashii, waxaa la aasaasay nidaamka waxbarashada…",
+      "word": "gaareen"
+     }
+    },
+    {
+     "form": "gaaray",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-46",
+      "text": "…dukaankiisi wuxuu noqday mid horumar weyn gaaray oo leh keyd xasilloon",
+      "word": "gaaray"
+     }
+    },
+    {
+     "form": "gaartay",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-268",
+      "text": "…oo lagu ciribtirayo jaahilnimada. Waxbarashadu waxay gaartay tuulooyinka fogfog, iyadoo dadka waaweyn iyo…",
+      "word": "gaartay"
+     }
+    },
+    {
+     "form": "gaarin",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-88",
+      "text": "…todobaad ka hor, weli ma soo gaarin gurigayga. Wakiilka: Fadlanii soo gudbi lambarka…",
+      "word": "gaarin"
+     }
+    },
+    {
+     "form": "gaaraa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-5376",
+      "text": "…yaqaanaan xeer. Go'aanada odayaasha waxaa lagu gaaraa wadaxaajood, tanaasul, iyo bixinta magdhow haddii…",
+      "word": "gaaraa"
+     }
+    },
+    {
+     "form": "gaaraan",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-54",
+      "text": "…dhagaystaan dhinacyada is-haya. Go'aamada ay gaaraan ayaa inta badan lagu saleyaa caddaalad…",
+      "word": "gaaraan"
+     }
+    },
+    {
+     "form": "gaarayaan",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-337",
+      "text": "…Waxay isku raaceen tartan ay ku gaarayaan geed weyn oo ku yaalla dhinaca…",
+      "word": "gaarayaan"
+     }
+    },
+    {
+     "form": "gaaro",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-112",
+      "text": "…wadada, waxaana la filayaa inuu soo gaaro berri subax. Macaamiil: Runtii maanta ayaan…",
+      "word": "gaaro"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t020",
+   "sample": "top",
+   "stem": "qof",
+   "totalForms": 6,
+   "forms": [
+    {
+     "form": "qof",
+     "count": 21,
+     "example": {
+      "docId": "sopc-v2-109",
+      "text": "…cudurrada nafaqo-darridu keento. Waa in qof kasta uu fiiro gaar ah u…",
+      "word": "qof"
+     }
+    },
+    {
+     "form": "qofka",
+     "count": 20,
+     "example": {
+      "docId": "sopc-v2-13",
+      "text": "…iyo niyad-jabka, wuxuuna ka caawiyaa qofka inuu helo hurdo tayo leh. Uma…",
+      "word": "qofka"
+     }
+    },
+    {
+     "form": "qofku",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-12",
+      "text": "…inuu engego. Waxaa lagula talinayaa in qofku cabbo ugu yaraan siddeed koob oo…",
+      "word": "qofku"
+     }
+    },
+    {
+     "form": "qofkii",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-129",
+      "text": "…wanaagsan ee lagu yaqaan shacabka Soomaaliyeed. Qofkii marti ku noqdo guri Soomaaliyeed waxaa…",
+      "word": "Qofkii"
+     }
+    },
+    {
+     "form": "qofna",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-662",
+      "text": "…u qayliyay oo gurmad codsaday, balse qofna uma soo gurman sababtoo ah waxay…",
+      "word": "qofna"
+     }
+    },
+    {
+     "form": "qofkuna",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-70",
+      "text": "…dadka u saameeyaan si kala duwan, qofkuna uu dooran karo inuu noqdo mid…",
+      "word": "qofkuna"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t021",
+   "sample": "top",
+   "stem": "muhiim",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "muhiim",
+     "count": 45,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…ogtahay in hurdadu ay tahay qayb muhiim ah oo ka mid ah caafimaadkeena…",
+      "word": "muhiim"
+     }
+    },
+    {
+     "form": "muhiimka",
+     "count": 11,
+     "example": {
+      "docId": "sopc-v2-166",
+      "text": "…caawiyaa inuu ka hortago baxsashada nafaqooyinka muhiimka ah ee ku jira ciidda, wuxuuna…",
+      "word": "muhiimka"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t022",
+   "sample": "top",
+   "stem": "bul",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "bulshada",
+     "count": 46,
+     "example": {
+      "docId": "sopc-v2-143",
+      "text": "Wasaaradda Caafimaadka iyo Daryeelka Bulshada waxay ogeysineysaa dhammaan muwaadiniinta in ololaha…",
+      "word": "Bulshada"
+     }
+    },
+    {
+     "form": "bulshadu",
+     "count": 7,
+     "example": {
+      "docId": "sopc-v2-52",
+      "text": "…sii waddaa inay noqoto muraayadda ay bulshadu isku aragto, iyada oo xambaarsan dareenka…",
+      "word": "bulshadu"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t023",
+   "sample": "top",
+   "stem": "isticmaal",
+   "totalForms": 6,
+   "forms": [
+    {
+     "form": "isticmaalka",
+     "count": 19,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…xanuunka macaanka. S: Sidee loo yareeyaa isticmaalka sonkorta? J: Isku day inaad beddesho…",
+      "word": "isticmaalka"
+     }
+    },
+    {
+     "form": "isticmaalo",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-29",
+      "text": "…Su'aal: Ma fiican baa in la isticmaalo dhexdhexaadiye ama dilaal markii la iibinayo…",
+      "word": "isticmaalo"
+     }
+    },
+    {
+     "form": "isticmaal",
+     "count": 8,
+     "example": {
+      "docId": "sopc-v2-22",
+      "text": "…shaqooyinkii hore ee aad soo qabatay. Isticmaal luuqad toosan oo ka fog khalad…",
+      "word": "Isticmaal"
+     }
+    },
+    {
+     "form": "isticmaalin",
+     "count": 7,
+     "example": {
+      "docId": "sopc-v2-77",
+      "text": "…in aad tirtirto barnaamijyada aan la isticmaalin isla markaana aad nadiifiso keydka xogta…",
+      "word": "isticmaalin"
+     }
+    },
+    {
+     "form": "isticmaalaan",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-159",
+      "text": "…jiro xilliga da'da, si ay ugu isticmaalaan xilliyada abaarta. Kaydinta biyuhu ma aha…",
+      "word": "isticmaalaan"
+     }
+    },
+    {
+     "form": "isticmaalaa",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-181",
+      "text": "…Qof kasta oo Soomaali ah wuxuu isticmaalaa maahmaah si uu u xoojiyo hadalkiisa…",
+      "word": "isticmaalaa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t024",
+   "sample": "top",
+   "stem": "kas",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "kasta",
+     "count": 43,
+     "example": {
+      "docId": "sopc-v2-56",
+      "text": "…jidhka bini'aadamku u baahan yahay maalin kasta. Waxay hodan ku tahay fiitamiinnada, macdanta…",
+      "word": "kasta"
+     }
+    },
+    {
+     "form": "kastaba",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-46",
+      "text": "…uu si fiican uga shaqeynayay. Si kastaba ha ahaatee, wuxuu mar walba ka…",
+      "word": "kastaba"
+     }
+    },
+    {
+     "form": "kasoo",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-277",
+      "text": "…ah uga soo saari lahaa lacagta kasoo xaroota meheradda mar kasta uu u…",
+      "word": "kasoo"
+     }
+    },
+    {
+     "form": "kastaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-179",
+      "text": "…leeyahay qaab-dhismeed fudud oo qof kastaa fahmi karo, taas oo ka dhigaysa…",
+      "word": "kastaa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t025",
+   "sample": "top",
+   "stem": "maal",
+   "totalForms": 7,
+   "forms": [
+    {
+     "form": "maalin",
+     "count": 31,
+     "example": {
+      "docId": "sopc-v2-56",
+      "text": "…uu jidhka bini'aadamku u baahan yahay maalin kasta. Waxay hodan ku tahay fiitamiinnada…",
+      "word": "maalin"
+     }
+    },
+    {
+     "form": "maalintii",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-12",
+      "text": "…u yihiin. Cabitaanka biyo kugu filan maalintii waxay caawisaa dheef-shiidka, waxay nadiifisaa…",
+      "word": "maalintii"
+     }
+    },
+    {
+     "form": "maalinta",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-106",
+      "text": "Quraacdu waa cuntada ugu muhiimsan maalinta. Quraac caafimaad qabta waa inay ka…",
+      "word": "maalinta"
+     }
+    },
+    {
+     "form": "maal",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-961",
+      "text": "…ku yiri, aan isbarbardhigno. Haddii aan maal ku siiyo oo aad isticmaasho waa…",
+      "word": "maal"
+     }
+    },
+    {
+     "form": "maalinba",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-265",
+      "text": "…oo la wici karo habeen iyo maalinba si loo helo caawimaad degdeg ah…",
+      "word": "maalinba"
+     }
+    },
+    {
+     "form": "maalka",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-961",
+      "text": "…waxay garawsatay in cilmigu ka sarreeyo maalka oo aan la dhumin karin",
+      "word": "maalka"
+     }
+    },
+    {
+     "form": "maalku",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-961",
+      "text": "…oday aqoon badan. Dhalinyaradii waxay tiri, maalku waa waxa ugu muhiimsan nolosha. Odaygii…",
+      "word": "maalku"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t026",
+   "sample": "top",
+   "stem": "hab",
+   "totalForms": 7,
+   "forms": [
+    {
+     "form": "hab",
+     "count": 16,
+     "example": {
+      "docId": "sopc-v2-14",
+      "text": "…Cunista cunto caafimaad leh waxay xoojisaa hab-dhiska difaaca jidhka waxayna kaa ilaalinaysaa…",
+      "word": "hab"
+     }
+    },
+    {
+     "form": "habka",
+     "count": 12,
+     "example": {
+      "docId": "sopc-v2-92",
+      "text": "Keydinta lacagtu waa habka ugu wanaagsan ee lagu badbaadiyo ganacsiga…",
+      "word": "habka"
+     }
+    },
+    {
+     "form": "habeen",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-68",
+      "text": "…u sheegay in guushu aysan imaan habeen qudha, balse ay u baahan tahay…",
+      "word": "habeen"
+     }
+    },
+    {
+     "form": "habeenkii",
+     "count": 7,
+     "example": {
+      "docId": "sopc-v2-87",
+      "text": "…wax ka iibsaday? Macaamiil: Maya, anigu habeenkii ma iibsado wax walba. Wakiilka: Haddaba…",
+      "word": "habeenkii"
+     }
+    },
+    {
+     "form": "habaynayo",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-117",
+      "text": "…Wakiilka: Mahadsanid. Fadlan sug inta aan habaynayo nidaamka. Macaamiil: Waa yahay. Wakiilka: Koodkaagu…",
+      "word": "habaynayo"
+     }
+    },
+    {
+     "form": "habba",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-162",
+      "text": "…inaan isla markaana bilownaa hirgelinta labada habba",
+      "word": "habba"
+     }
+    },
+    {
+     "form": "habeenku",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-861",
+      "text": "Marka uu habeenku soo galo ee ay mugdigu deegaanka…",
+      "word": "habeenku"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t027",
+   "sample": "top",
+   "stem": "hel",
+   "totalForms": 9,
+   "forms": [
+    {
+     "form": "helo",
+     "count": 14,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…J: Sonkorta dabiiciga ah ee laga helo midhaha waa mid caafimaad leh, laakiin…",
+      "word": "helo"
+     }
+    },
+    {
+     "form": "helay",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-149",
+      "text": "…tiro badeecooyin dhacay ah oo laga helay qaar kamid ah suuqyada magaalada. Waxaa…",
+      "word": "helay"
+     }
+    },
+    {
+     "form": "helin",
+     "count": 8,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…Axmed: Waa run, laakiin haddii aadan helin 7-8 saacadood oo hurdo ah, jidhkaagu ma…",
+      "word": "helin"
+     }
+    },
+    {
+     "form": "helaan",
+     "count": 7,
+     "example": {
+      "docId": "sopc-v2-143",
+      "text": "…ee ugu dhow si ay u helaan tallaalka oo ah mid bilaash ah…",
+      "word": "helaan"
+     }
+    },
+    {
+     "form": "helaa",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-59",
+      "text": "…lafaha, iyo unugyada jidhka. Waxaa laga helaa ilo kala duwan oo ay ka…",
+      "word": "helaa"
+     }
+    },
+    {
+     "form": "helaysaa",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-31",
+      "text": "…aad ku dartid saddex kale, waxaad helaysaa shan tufaax. Habkan waxaa loo adeegsadaa…",
+      "word": "helaysaa"
+     }
+    },
+    {
+     "form": "helayaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-109",
+      "text": "…macdano. Qofka cunaya cunto dheellitiran wuxuu helayaa tamar uu hawl maalmeedkiisa ku qabsado…",
+      "word": "helayaa"
+     }
+    },
+    {
+     "form": "helaynaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-31",
+      "text": "…nambar ama in ka badan, waxaan helaynaa wadarta guud ee waxyaabahaas. Tusaale ahaan…",
+      "word": "helaynaa"
+     }
+    },
+    {
+     "form": "heleen",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-875",
+      "text": "…oo harraadsan. Intii ay socdeen ayay heleen kiish ay ku jireen dahab iyo…",
+      "word": "heleen"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t028",
+   "sample": "top",
+   "stem": "laba",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "laba",
+     "count": 25,
+     "example": {
+      "docId": "sopc-v2-118",
+      "text": "…Magaciisu waa Yuusuf Cali, da'diisuna waa laba sano. Wakiilka: Waa la diiwaangeliyey. Fadlan…",
+      "word": "laba"
+     }
+    },
+    {
+     "form": "labada",
+     "count": 11,
+     "example": {
+      "docId": "sopc-v2-162",
+      "text": "…waa inaan isla markaana bilownaa hirgelinta labada habba",
+      "word": "labada"
+     }
+    },
+    {
+     "form": "labadii",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-661",
+      "text": "…ka adkaadaan. Libaaxii ayaa bilaabay inuu labadii dibi dhexdooda xaman ka dhex abuuro…",
+      "word": "labadii"
+     }
+    },
+    {
+     "form": "labadaba",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-223",
+      "text": "…u tababarto xirfadahaaga hadalka iyo dhageysiga labadaba",
+      "word": "labadaba"
+     }
+    },
+    {
+     "form": "labadu",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-28",
+      "text": "…si dabiici ah loo soo saaray. - Labadu waa xoogaa qaali. Ma iga siin…",
+      "word": "Labadu"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t029",
+   "sample": "top",
+   "stem": "uga",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "uga",
+     "count": 41,
+     "example": {
+      "docId": "sopc-v2-20",
+      "text": "…diiwaangelinta ama waxaad si toos ah uga codsan kartaa miiska soo dhoweynta. Waxaa…",
+      "word": "uga"
+     }
+    },
+    {
+     "form": "ugana",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-43",
+      "text": "…tilmaamaya sida ganacsigu u heli doono ugana bixi doono lacagta muddo go'an gudaheed…",
+      "word": "ugana"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t030",
+   "sample": "top",
+   "stem": "dad",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "dadka",
+     "count": 22,
+     "example": {
+      "docId": "sopc-v2-16",
+      "text": "…caafimaadka maskaxdayda? J: Adigoo la xidhiidha dadka aad jeceshahay, barashada xirfad cusub, iyo…",
+      "word": "dadka"
+     }
+    },
+    {
+     "form": "dadku",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-96",
+      "text": "…wuxuu ahaa warbaahinta ugu weyn ee dadku ku kala warqaataan, kuna kala saaraan…",
+      "word": "dadku"
+     }
+    },
+    {
+     "form": "dad",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-57",
+      "text": "…wareegga dhiigga waxayna kordhiyaan tamarta qofka. Dad badan ayaa dayaca cabitaanka biyaha iyagoo…",
+      "word": "Dad"
+     }
+    },
+    {
+     "form": "dadkii",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-97",
+      "text": "…la barto taariikhda iyo hab-nololeedkii dadkii hore, taas oo qofka ka dhigaysa…",
+      "word": "dadkii"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t031",
+   "sample": "top",
+   "stem": "hal",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "halka",
+     "count": 18,
+     "example": {
+      "docId": "sopc-v2-29",
+      "text": "Su'aal: Sideen ku ogaadaa halka ay ka jirto baahida ugu badan…",
+      "word": "halka"
+     }
+    },
+    {
+     "form": "hal",
+     "count": 16,
+     "example": {
+      "docId": "sopc-v2-28",
+      "text": "…maadaama aad tahay macmiil joogto ah, hal dollar iyo toddobaatan senti aan ku…",
+      "word": "hal"
+     }
+    },
+    {
+     "form": "halkii",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-58",
+      "text": "…in la cuno miro dabiici ah halkii laga cuni lahaa macmacaanka warshadaysan. Isbeddelkan…",
+      "word": "halkii"
+     }
+    },
+    {
+     "form": "halo",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-211",
+      "text": "Shaqaale: Halo, ku soo dhowow shirkadda Hi-Tech…",
+      "word": "Halo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t032",
+   "sample": "top",
+   "stem": "taas",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "taas",
+     "count": 36,
+     "example": {
+      "docId": "sopc-v2-12",
+      "text": "…kooban yahay boqolkiiba toddobaatan biyo ah, taas oo muujinaysa sida ay lagama maarmaan…",
+      "word": "taas"
+     }
+    },
+    {
+     "form": "taasoo",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-34",
+      "text": "…wuxuu soo saaraa caleemo qabta photosynthesis, taasoo ah habka uu geedku u sameeyo…",
+      "word": "taasoo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t033",
+   "sample": "top",
+   "stem": "caafimaad",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "caafimaad",
+     "count": 19,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…ee laga helo midhaha waa mid caafimaad leh, laakiin sonkorta lagu daro cabitaannada…",
+      "word": "caafimaad"
+     }
+    },
+    {
+     "form": "caafimaadka",
+     "count": 18,
+     "example": {
+      "docId": "sopc-v2-1",
+      "text": "Wasaaradda caafimaadka ayaa si rasmi ah u bilowday…",
+      "word": "caafimaadka"
+     }
+    },
+    {
+     "form": "caafimaadkiisa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-57",
+      "text": "…ah maalintii si uu u ilaaliyo caafimaadkiisa guud",
+      "word": "caafimaadkiisa"
+     }
+    },
+    {
+     "form": "caafimaadkuba",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-102",
+      "text": "…shaqada maskaxda iyo wareegga dhiigga. Khubaradaha caafimaadkuba waxay ku talinayaan in la cabo…",
+      "word": "caafimaadkuba"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t034",
+   "sample": "top",
+   "stem": "dib",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "dib",
+     "count": 29,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…hurdo ah, jidhkaagu ma awoodo inuu dib u soo kabsado. Faarax: Maxaa talo…",
+      "word": "dib"
+     }
+    },
+    {
+     "form": "dibna",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-22",
+      "text": "…aad ku bilowdo macluumaadkaaga xiriirka, ka dibna aad qorto yoolkaaga shaqo, waxbarashadaada, iyo…",
+      "word": "dibna"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t035",
+   "sample": "top",
+   "stem": "weyn",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "weyn",
+     "count": 38,
+     "example": {
+      "docId": "sopc-v2-160",
+      "text": "…ka dhasha. Beeraleyda Soomaaliyeed waxay si weyn uga faa'iideysan karaan nidaamkan si ay…",
+      "word": "weyn"
+     }
+    },
+    {
+     "form": "weynaada",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-34",
+      "text": "…xidid iyo jirrid yar. Geedka oo weynaada wuxuu soo saaraa caleemo qabta photosynthesis…",
+      "word": "weynaada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t036",
+   "sample": "top",
+   "stem": "lacag",
+   "totalForms": 7,
+   "forms": [
+    {
+     "form": "lacagta",
+     "count": 16,
+     "example": {
+      "docId": "sopc-v2-29",
+      "text": "…faa'iidadaada. Su'aal: Sideen u xaqiijiyaa in lacagta laga helo dalagga ay tahay mid…",
+      "word": "lacagta"
+     }
+    },
+    {
+     "form": "lacag",
+     "count": 13,
+     "example": {
+      "docId": "sopc-v2-3",
+      "text": "…ka jirta suuqa ee dhanka xalka lacag bixinta, kadibna waxaan go'aansaday inaan abuuro…",
+      "word": "lacag"
+     }
+    },
+    {
+     "form": "lacagaha",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-18",
+      "text": "…karaa lambarka sirta ah ee adeegga lacagaha mobilada? Jawaab: Si aad u beddesho…",
+      "word": "lacagaha"
+     }
+    },
+    {
+     "form": "lacagtu",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-44",
+      "text": "Keydinta lacagtu waa geeddi-socod u baahan edbin…",
+      "word": "lacagtu"
+     }
+    },
+    {
+     "form": "lacago",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-148",
+      "text": "…adkeeyay inaysan dugsiyadu qaadi karin wax lacago ah oo aan fasax uga haysan…",
+      "word": "lacago"
+     }
+    },
+    {
+     "form": "lacagtaadu",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-44",
+      "text": "…dhow u gartaa halka ay baxdo lacagtaadu. Iska yaree kharashaadka hawlgalka ee aan…",
+      "word": "lacagtaadu"
+     }
+    },
+    {
+     "form": "lacagtii",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-135",
+      "text": "…joogto ah. Macaamiil: Mahadsanid, waa kan lacagtii",
+      "word": "lacagtii"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t037",
+   "sample": "top",
+   "stem": "lee",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "leedahay",
+     "count": 19,
+     "example": {
+      "docId": "sopc-v2-14",
+      "text": "…ah jidhka. Tani waxay ku lug leedahay cunista khudaarta, midhaha, borotiinka, iyo karbohaydraytyada…",
+      "word": "leedahay"
+     }
+    },
+    {
+     "form": "leeyahay",
+     "count": 19,
+     "example": {
+      "docId": "sopc-v2-60",
+      "text": "…yahay kan cad maxaa yeelay wuxuu leeyahay fiber badan. Cali: Haa, macallinkayaga caafimaadka…",
+      "word": "leeyahay"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t038",
+   "sample": "top",
+   "stem": "maan",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "maanta",
+     "count": 37,
+     "example": {
+      "docId": "sopc-v2-60",
+      "text": "Hooyo: Maxaad maanta jeclaan lahayd inaan kuu kariyo casho…",
+      "word": "maanta"
+     }
+    },
+    {
+     "form": "maantase",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-6859",
+      "text": "…waxaa lagu keydin jiray xusuusta dadka, maantase waxaa la joogaa xilligii la qori…",
+      "word": "maantase"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t039",
+   "sample": "top",
+   "stem": "sii",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "sii",
+     "count": 21,
+     "example": {
+      "docId": "sopc-v2-0",
+      "text": "…xorta ah. Dowladdu waxay ballanqaadday inay sii wadi doonto taageerada ay siinayso ganacsatada…",
+      "word": "sii"
+     }
+    },
+    {
+     "form": "siiyo",
+     "count": 12,
+     "example": {
+      "docId": "sopc-v2-28",
+      "text": "…dollar iyo toddobaatan senti aan ku siiyo. - Waa yahay, iga cabir shan kiiloogram…",
+      "word": "siiyo"
+     }
+    },
+    {
+     "form": "siinaya",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-72",
+      "text": "…biyaha u adeegsadaan si hufan, iyagoo siinaya geed kasta qadarka uu u baahan…",
+      "word": "siinaya"
+     }
+    },
+    {
+     "form": "siinaysaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-106",
+      "text": "…tufaax. Quraacda noocaan ah waxay ku siinaysaa tamar ku filan oo aad maalinta…",
+      "word": "siinaysaa"
+     }
+    },
+    {
+     "form": "siiyay",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-66",
+      "text": "…daacadnimadiisa, wuxuuna abaal marin ahaan u siiyay qayb ka mid ah hantidiisa. Casharka…",
+      "word": "siiyay"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t040",
+   "sample": "top",
+   "stem": "jawaab",
+   "totalForms": 6,
+   "forms": [
+    {
+     "form": "jawaab",
+     "count": 26,
+     "example": {
+      "docId": "sopc-v2-20",
+      "text": "…ballami karaa takhasusle isbitaalka dhexdiisa ah? Jawaab: Si aad u samaysato ballan caafimaad…",
+      "word": "Jawaab"
+     }
+    },
+    {
+     "form": "jawaabay",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-133",
+      "text": "…kaa xanuunaya maanta? Bukaanku wuxuu ku jawaabay: Dhakhtar, waxaa i haya madax xanuun…",
+      "word": "jawaabay"
+     }
+    },
+    {
+     "form": "jawaabtay",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-760",
+      "text": "…sidaasaysay abaalkaygii?' Abeesadii waxay ku jawaabtay: 'Waa dabeecaddayda.' Sheekadani waxay ina…",
+      "word": "jawaabtay"
+     }
+    },
+    {
+     "form": "jawaabaan",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-180",
+      "text": "…waa habka ay abwaannada Soomaaliyeed isugu jawaabaan, iyagoo ka doodaynaya mowduucyo kala duwan…",
+      "word": "jawaabaan"
+     }
+    },
+    {
+     "form": "jawaabaha",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-186",
+      "text": "…yar yar oo la xiriira daahitaanka jawaabaha ee khadka taleefanka, waxaana la soo…",
+      "word": "jawaabaha"
+     }
+    },
+    {
+     "form": "jawaabta",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-156",
+      "text": "…ah uu beddeli doono shaqada bini'aadamka. Jawaabta saxda ah waa in AI uu…",
+      "word": "Jawaabta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t041",
+   "sample": "top",
+   "stem": "dhan",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "dhanka",
+     "count": 18,
+     "example": {
+      "docId": "sopc-v2-3",
+      "text": "…arkay baahida ka jirta suuqa ee dhanka xalka lacag bixinta, kadibna waxaan go'aansaday…",
+      "word": "dhanka"
+     }
+    },
+    {
+     "form": "dhan",
+     "count": 16,
+     "example": {
+      "docId": "sopc-v2-28",
+      "text": "…iyo bar haddii aan qaato shandad dhan? - Walaal, kharashka aan ku bixiyay waraabka…",
+      "word": "dhan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t042",
+   "sample": "top",
+   "stem": "qayb",
+   "totalForms": 7,
+   "forms": [
+    {
+     "form": "qayb",
+     "count": 17,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…Ma ogtahay in hurdadu ay tahay qayb muhiim ah oo ka mid ah…",
+      "word": "qayb"
+     }
+    },
+    {
+     "form": "qaybaha",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-109",
+      "text": "…dheellitiran waa mid ka kooban dhammaan qaybaha nafaqada ee uu jidhku u baahan…",
+      "word": "qaybaha"
+     }
+    },
+    {
+     "form": "qaybood",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-32",
+      "text": "…haddii aad keeg u qaybisid afar qaybood oo aad mid ka qaadatid, waxaad…",
+      "word": "qaybood"
+     }
+    },
+    {
+     "form": "qaybta",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-18",
+      "text": "…lambarka kooban ee adeeggaaga oo dooro qaybta amniga ama koontada. Halkaas waxaad ka…",
+      "word": "qaybta"
+     }
+    },
+    {
+     "form": "qaybinta",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-88",
+      "text": "…Dalabkaagii wuxuu hadda ku jiraa xarunta qaybinta ee magaaladaada. Wakiilka: Waxaa la filayaa…",
+      "word": "qaybinta"
+     }
+    },
+    {
+     "form": "qaybtayda",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-966",
+      "text": "…waxay ku jawaabtay, anigu waxaan qabanayaa qaybtayda ah inaan dadaalo oo aanan daawan…",
+      "word": "qaybtayda"
+     }
+    },
+    {
+     "form": "qaybtii",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-669",
+      "text": "…yahay maroodigu. Qof kasta wuxuu sheegay qaybtii uu taabtay oo keliya. Casharku wuxuu…",
+      "word": "qaybtii"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t043",
+   "sample": "top",
+   "stem": "max",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "maxay",
+     "count": 14,
+     "example": {
+      "docId": "sopc-v2-16",
+      "text": "S: Waa maxay caafimaadka maskaxdu? J: Waa xaaladda fayoobida…",
+      "word": "maxay"
+     }
+    },
+    {
+     "form": "maxaa",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…inuu dib u soo kabsado. Faarax: Maxaa talo ah oo aad i siin…",
+      "word": "Maxaa"
+     }
+    },
+    {
+     "form": "maxaan",
+     "count": 7,
+     "example": {
+      "docId": "sopc-v2-162",
+      "text": "Axmed: Maxaan sameyn karnaa si aan u badbaadino…",
+      "word": "Maxaan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t044",
+   "sample": "top",
+   "stem": "lambar",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "lambarka",
+     "count": 23,
+     "example": {
+      "docId": "sopc-v2-20",
+      "text": "…ballan caafimaad, waxaad soo wici kartaa lambarka diiwaangelinta ama waxaad si toos ah…",
+      "word": "lambarka"
+     }
+    },
+    {
+     "form": "lambar",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-111",
+      "text": "…fariin gaaban oo ay ku jirto lambar xaqiijin ah. Fadlan ii sheeg marka…",
+      "word": "lambar"
+     }
+    },
+    {
+     "form": "lambarku",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-111",
+      "text": "…marka aad hesho. Macaamiil: Waan helay, lambarku waa 8832. Wakiilka: Waad ku mahadsan tahay…",
+      "word": "lambarku"
+     }
+    },
+    {
+     "form": "lambarkii",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-18",
+      "text": "…ah 'Beddel lambarka sirta ah'. Geli lambarkii hore kadibna geli lambarka cusub ee…",
+      "word": "lambarkii"
+     }
+    },
+    {
+     "form": "lambaro",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-206",
+      "text": "…isugu jira far waaweyn, far yar, lambaro, iyo calaamado gaar ah. Ha isticmaalin…",
+      "word": "lambaro"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t045",
+   "sample": "top",
+   "stem": "magac",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "magacaygu",
+     "count": 21,
+     "example": {
+      "docId": "sopc-v2-118",
+      "text": "Wakiilka: Isbitaalka Guud ee Badbaado, magacaygu waa Nimco. Sideen ku caawiyaa? Macaamiil…",
+      "word": "magacaygu"
+     }
+    },
+    {
+     "form": "magacaaga",
+     "count": 8,
+     "example": {
+      "docId": "sopc-v2-20",
+      "text": "…dhoweynta. Waxaa lagaa rabaa inaad bixiso magacaaga oo buuxa iyo lambarkaaga aqoonsiga. Waxaan…",
+      "word": "magacaaga"
+     }
+    },
+    {
+     "form": "magacyada",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-461",
+      "text": "…oo uga sheekeeyey hal-abuurka iyo magacyada xiddigaha qaarkood ee ay ayeeyayaashii hore…",
+      "word": "magacyada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t046",
+   "sample": "top",
+   "stem": "aal",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "aal",
+     "count": 28,
+     "example": null
+    },
+    {
+     "form": "aalaha",
+     "count": 1,
+     "example": null
+    }
+   ]
+  },
+  {
+   "id": "t047",
+   "sample": "top",
+   "stem": "dal",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "dalka",
+     "count": 28,
+     "example": {
+      "docId": "sopc-v2-1",
+      "text": "…badanaya qaar ka mid ah gobollada dalka. Shaqaalaha caafimaadka ayaa booqanaya guryaha si…",
+      "word": "dalka"
+     }
+    },
+    {
+     "form": "dalbanaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-116",
+      "text": "…Darawiish, magacaygu waa Maryan. Maxaan kuu dalbanaa maanta? Macaamiil: Salaan, waxaan rabaa inaan…",
+      "word": "dalbanaa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t048",
+   "sample": "top",
+   "stem": "sheeg",
+   "totalForms": 6,
+   "forms": [
+    {
+     "form": "sheegay",
+     "count": 12,
+     "example": {
+      "docId": "sopc-v2-0",
+      "text": "…soo saartay wasaaradda maaliyadda ayaa lagu sheegay in dhaqaalaha dalka uu muujiyay horumar…",
+      "word": "sheegay"
+     }
+    },
+    {
+     "form": "sheeg",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-86",
+      "text": "…Waan ka xumahay dhibaatadaas. Fadlan ii sheeg magacaaga buuxa iyo cinwaanka iimaylkaaga si…",
+      "word": "sheeg"
+     }
+    },
+    {
+     "form": "sheegtay",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-62",
+      "text": "…ah ee maadada xisaabta. Hodan ayaa sheegtay in ay dhibaato ka haysato isla'egyada…",
+      "word": "sheegtay"
+     }
+    },
+    {
+     "form": "sheegaan",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-540",
+      "text": "…odayasha ama hooyooyinka ay carruurta u sheegaan sheekooyin hidaha ah. Sheekooyinkani waxay inta…",
+      "word": "sheegaan"
+     }
+    },
+    {
+     "form": "sheegaysaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-83",
+      "text": "…isku-beddelka ee lagu daridda waxay sheegaysaa in amarka tiradu aysan beddelin natiijada…",
+      "word": "sheegaysaa"
+     }
+    },
+    {
+     "form": "sheego",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-964",
+      "text": "…rumaysnayn qofka xataa marka uu runta sheego",
+      "word": "sheego"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t049",
+   "sample": "top",
+   "stem": "ganacsi",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "ganacsiga",
+     "count": 15,
+     "example": {
+      "docId": "sopc-v2-149",
+      "text": "Hay'adda Tayada iyo Cabbirka Wasaaradda Ganacsiga waxay qabatay tiro badeecooyin dhacay ah…",
+      "word": "Ganacsiga"
+     }
+    },
+    {
+     "form": "ganacsi",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-43",
+      "text": "…Waa aasaaska maareynta maaliyadda guul leh. Ganacsi kasta, ha ahaado mid yar ama…",
+      "word": "Ganacsi"
+     }
+    },
+    {
+     "form": "ganacsigu",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-43",
+      "text": "…waa qorshe dhaqaale oo tilmaamaya sida ganacsigu u heli doono ugana bixi doono…",
+      "word": "ganacsigu"
+     }
+    },
+    {
+     "form": "ganacsiyada",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-152",
+      "text": "…iyo maalgelin hordhac ah siin doona ganacsiyada yar yar ee ay hormuudka ka…",
+      "word": "ganacsiyada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t050",
+   "sample": "top",
+   "stem": "geed",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "geed",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-72",
+      "text": "…u adeegsadaan si hufan, iyagoo siinaya geed kasta qadarka uu u baahan yahay…",
+      "word": "geed"
+     }
+    },
+    {
+     "form": "geedka",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-54",
+      "text": "…dhaqanka ayaa fadhiista meel la yiraahdo geedka hoostiisa si ay u dhagaystaan dhinacyada…",
+      "word": "geedka"
+     }
+    },
+    {
+     "form": "geedku",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-34",
+      "text": "…iyo hawada si ay u koraan. Geedku wuxuu ka bilaabmaa abuur yar oo…",
+      "word": "Geedku"
+     }
+    },
+    {
+     "form": "geedaha",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-338",
+      "text": "…Cali tusay halka ay ku yaallaan geedaha miraha ugu macaan ee kaynta",
+      "word": "geedaha"
+     }
+    },
+    {
+     "form": "geedkii",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-960",
+      "text": "…ku wada noolaa dhul abaaro ah. Geedkii qodaxda leeyahay ayaa ku jeesjeeday beeyada…",
+      "word": "Geedkii"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t051",
+   "sample": "top",
+   "stem": "meel",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "meel",
+     "count": 15,
+     "example": {
+      "docId": "sopc-v2-92",
+      "text": "…Ganacsato badan ayaa ku fashilma inaysan meel dhigin lacag kayd ah, taas oo…",
+      "word": "meel"
+     }
+    },
+    {
+     "form": "meelaha",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-25",
+      "text": "…Sideen ula xiriiraa dadka ka shaqeeya meelaha aan doonayo? Jawaab: Isticmaal barnaamijyada xiriirka…",
+      "word": "meelaha"
+     }
+    },
+    {
+     "form": "meelo",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-120",
+      "text": "…nidaamyada maxkamadaha casriga ah. Weli maanta, meelo badan oo Miyiga ah iyo magaalooyinka…",
+      "word": "meelo"
+     }
+    },
+    {
+     "form": "meelood",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-32",
+      "text": "…qaadatid, waxaad qaadatay rubuc ama afar meelood meel. Jajabku wuxuu ka kooban yahay…",
+      "word": "meelood"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t052",
+   "sample": "top",
+   "stem": "saar",
+   "totalForms": 11,
+   "forms": [
+    {
+     "form": "saartay",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-0",
+      "text": "Warbixin cusub oo ay soo saartay wasaaradda maaliyadda ayaa lagu sheegay in…",
+      "word": "saartay"
+     }
+    },
+    {
+     "form": "saaraa",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-94",
+      "text": "…gasha dukaankaaga?' Cumar: 'Waan kala saaraa kharashka shaqsiga ah iyo kan ganacsiga…",
+      "word": "saaraa"
+     }
+    },
+    {
+     "form": "saaraan",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-164",
+      "text": "…beeraleydu isticmaali karaan si ay uga saaraan cusbada xad-dhaafka ah",
+      "word": "saaraan"
+     }
+    },
+    {
+     "form": "saaray",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-28",
+      "text": "…oo si dabiici ah loo soo saaray. - Labadu waa xoogaa qaali. Ma iga…",
+      "word": "saaray"
+     }
+    },
+    {
+     "form": "saarka",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-160",
+      "text": "…nidaamkan si ay u kordhiyaan soo saarka iyaga oo isticmaalaya biyo yar. Tababaro…",
+      "word": "saarka"
+     }
+    },
+    {
+     "form": "saaro",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-57",
+      "text": "…waxay caawisaa in sunta jidhka laga saaro, waxayna ilaalinaysaa qoyaanka maqaarka. Sidoo kale…",
+      "word": "saaro"
+     }
+    },
+    {
+     "form": "saarta",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-165",
+      "text": "…waxay noqotay mid cagaaran oo soo saarta khudaar iyo miro tayo leh, taas…",
+      "word": "saarta"
+     }
+    },
+    {
+     "form": "saar",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-17",
+      "text": "…u billow router-kaaga adigoo ka saar korontada shan ilbiriqsi kadibna dib ugu…",
+      "word": "saar"
+     }
+    },
+    {
+     "form": "saaraysaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-74",
+      "text": "Warbixintan waxay diiradda saaraysaa khatarta fatahaadaha ay sababaan roobabka mahiigaanka…",
+      "word": "saaraysaa"
+     }
+    },
+    {
+     "form": "saareen",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-275",
+      "text": "…jireen caqabado badan, dugsiyadan waxay soo saareen hoggaamiyeyaal iyo aqoonyahanno dalka wax badan…",
+      "word": "saareen"
+     }
+    },
+    {
+     "form": "saarin",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-158",
+      "text": "…aan midab ama qabiil ku kala saarin dadka uu u adeegayo",
+      "word": "saarin"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t053",
+   "sample": "top",
+   "stem": "ahaan",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "ahaan",
+     "count": 26,
+     "example": {
+      "docId": "sopc-v2-60",
+      "text": "…jeclaan lahayd inaan kuu kariyo casho ahaan, Cali? Cali: Waxaan jeclaan lahaa cunto…",
+      "word": "ahaan"
+     }
+    },
+    {
+     "form": "ahaanba",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-156",
+      "text": "…bini'aadamka ee uusan ahayn mid gebi ahaanba beddelaya. Waxaa jiri doona shaqooyin cusub…",
+      "word": "ahaanba"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t054",
+   "sample": "top",
+   "stem": "bal",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "balse",
+     "count": 26,
+     "example": {
+      "docId": "sopc-v2-68",
+      "text": "…ganacsi badan oo aan sal lahayn, balse markasta wuu fashilmayay. Aabihiis ayaa u…",
+      "word": "balse"
+     }
+    },
+    {
+     "form": "bal",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-134",
+      "text": "…baan ku wareersanahay. Macallinku: Ha welwelin, bal aan ku tuso tusaale fudud oo…",
+      "word": "bal"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t055",
+   "sample": "top",
+   "stem": "kuu",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "kuu",
+     "count": 24,
+     "example": {
+      "docId": "sopc-v2-60",
+      "text": "Hooyo: Maxaad maanta jeclaan lahayd inaan kuu kariyo casho ahaan, Cali? Cali: Waxaan…",
+      "word": "kuu"
+     }
+    },
+    {
+     "form": "kuugu",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-90",
+      "text": "…iyo rasiidka qaybta hore si aan kuugu siino mid cusub isla markiiba. Macaamiil…",
+      "word": "kuugu"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t056",
+   "sample": "top",
+   "stem": "sir",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "sirta",
+     "count": 17,
+     "example": {
+      "docId": "sopc-v2-18",
+      "text": "Su'aal: Sideen u beddeli karaa lambarka sirta ah ee adeegga lacagaha mobilada? Jawaab…",
+      "word": "sirta"
+     }
+    },
+    {
+     "form": "sir",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-111",
+      "text": "…link aad ku samaysan karto eray sir ah oo cusub. Macaamiil: Waan arkay…",
+      "word": "sir"
+     }
+    },
+    {
+     "form": "siraha",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-294",
+      "text": "…u ah barashada xisaabta sare iyo siraha sir-qorista ee casriga ah",
+      "word": "siraha"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t057",
+   "sample": "top",
+   "stem": "soc",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "socda",
+     "count": 14,
+     "example": {
+      "docId": "sopc-v2-161",
+      "text": "…Marka ay roobabku da'aan, biyaha ka socda saqafka aqallada ama dhulka bannaan waxaa…",
+      "word": "socda"
+     }
+    },
+    {
+     "form": "socota",
+     "count": 9,
+     "example": {
+      "docId": "sopc-v2-151",
+      "text": "…dheeraadka ah laga bilaabo Sabtida soo socota. Muwaadiniinta waxaa laga codsanayaa inay soo…",
+      "word": "socota"
+     }
+    },
+    {
+     "form": "socotaa",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-29",
+      "text": "…hadashaa ganacsatada waaweyn, oo aad la socotaa wararka ku saabsan alaabta ka maqan…",
+      "word": "socotaa"
+     }
+    },
+    {
+     "form": "soco",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-118",
+      "text": "…Wakiilka: Waa la diiwaangeliyey. Fadlan soo soco shan daqiiqo ka hor si aad…",
+      "word": "soco"
+     }
+    },
+    {
+     "form": "socotay",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-133",
+      "text": "…daran iyo qandho ilaa xalay soo socotay. Dhakhtarku wuxuu yiri: Waa fiican yahay…",
+      "word": "socotay"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t058",
+   "sample": "top",
+   "stem": "hoo",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "hooyo",
+     "count": 12,
+     "example": {
+      "docId": "sopc-v2-60",
+      "text": "Hooyo: Maxaad maanta jeclaan lahayd inaan kuu…",
+      "word": "Hooyo"
+     }
+    },
+    {
+     "form": "hoose",
+     "count": 7,
+     "example": {
+      "docId": "sopc-v2-159",
+      "text": "…ay keenaan daadadka xooggan. Isticmaalka barkadaha hoose iyo taangiyada waaweyn ayaa ah xalka…",
+      "word": "hoose"
+     }
+    },
+    {
+     "form": "hooyada",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-98",
+      "text": "…dheer ku jiraan. Buraanburku waa codka hooyada iyo gabadha Soomaaliyeed, waana qayb aan…",
+      "word": "hooyada"
+     }
+    },
+    {
+     "form": "hooyadii",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-70",
+      "text": "…way adkaatay, qaxwodiina wuxuu beddelay biyaha. Hooyadii waxay gabadha u sharraxday in dhibaatooyinku…",
+      "word": "Hooyadii"
+     }
+    },
+    {
+     "form": "hooyadu",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-377",
+      "text": "…weji farxad leh iyo sacab tumis. Hooyadu waxay diyaarisay cunto gaar ah oo…",
+      "word": "Hooyadu"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t059",
+   "sample": "top",
+   "stem": "hubi",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "hubi",
+     "count": 15,
+     "example": {
+      "docId": "sopc-v2-22",
+      "text": "…oo muujinaya xirfadahaaga iyo waayo-aragnimadaada. Hubi in aad ku bilowdo macluumaadkaaga xiriirka…",
+      "word": "Hubi"
+     }
+    },
+    {
+     "form": "hubiyo",
+     "count": 6,
+     "example": {
+      "docId": "sopc-v2-20",
+      "text": "…ka hor waqtiga ballantaada si loo hubiyo xogtaada",
+      "word": "hubiyo"
+     }
+    },
+    {
+     "form": "hubinayo",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-87",
+      "text": "…Wakiilka: Mahadsanid. Hal daqiiqo sug intaan hubinayo dhaqdhaqaaqa kaarkaaga. Wakiilka: Waan arkay lacagtaas…",
+      "word": "hubinayo"
+     }
+    },
+    {
+     "form": "hubiyay",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-29",
+      "text": "…ama lacag caddaan ah oo la hubiyay",
+      "word": "hubiyay"
+     }
+    },
+    {
+     "form": "hubinaya",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-4421",
+      "text": "…sir-qorista iyo xakamaynta gelitaanka ayaa hubinaya inaysan xogtaadu u gacan gelin dad…",
+      "word": "hubinaya"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t060",
+   "sample": "top",
+   "stem": "shirkad",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "shirkadda",
+     "count": 15,
+     "example": {
+      "docId": "sopc-v2-23",
+      "text": "…in aad si fiican u baarto shirkadda aad u codsanayso. Xiro dhar ku…",
+      "word": "shirkadda"
+     }
+    },
+    {
+     "form": "shirkad",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-3",
+      "text": "…nahay ganacsade da' yar oo bilaabay shirkad tiknoolajiyad ah. Sideed ku bilowday fikraddan…",
+      "word": "shirkad"
+     }
+    },
+    {
+     "form": "shirkadaha",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-11",
+      "text": "Shirkadaha waaweyn ee isgaarsiinta ka howl-gala…",
+      "word": "Shirkadaha"
+     }
+    },
+    {
+     "form": "shirkaddu",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-44",
+      "text": "…kale. Tani waxay damaanad qaadaysaa in shirkaddu ay yeelan karto keyd ammaan ah…",
+      "word": "shirkaddu"
+     }
+    },
+    {
+     "form": "shirkado",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-171",
+      "text": "…ay burcaddu isaga dhigaan hay'ado ama shirkado lagu kalsoon yahay si ay kuu…",
+      "word": "shirkado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r001",
+   "sample": "random",
+   "stem": "goob",
+   "totalForms": 4,
+   "forms": [
+    {
+     "form": "goobaha",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-145",
+      "text": "…ballaaran oo lagu nadiifinayo xeebaha iyo goobaha dadweynaha ee magaalada Muqdisho. Ololahan oo…",
+      "word": "goobaha"
+     }
+    },
+    {
+     "form": "goob",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-5696",
+      "text": "…dadka. Shirarka golaha odayaasha ayaa ah goob ay ka soo baxaan go'aamada muhiimka…",
+      "word": "goob"
+     }
+    },
+    {
+     "form": "goobo",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-275",
+      "text": "…intii lagu guda jiray. Waxay ahaayeen goobo ay ku kulmaan ardayda ka kala…",
+      "word": "goobo"
+     }
+    },
+    {
+     "form": "goobta",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-261",
+      "text": "…Waxaa la xusuusinayaa inaysan geli karin goobta imtixaanka qalabka elegtarooniga ah sida taleefannada…",
+      "word": "goobta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r002",
+   "sample": "random",
+   "stem": "fari",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "fariinta",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-2",
+      "text": "…odayaasheenu sheegi jireen. Saxafi: Muxuu yahay fariinta aad u rabto in aad gaarsiiso…",
+      "word": "fariinta"
+     }
+    },
+    {
+     "form": "fariin",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-111",
+      "text": "…Mahadsanid Axmed. Hadda waxaan kuu dirayaa fariin gaaban oo ay ku jirto lambar…",
+      "word": "fariin"
+     }
+    },
+    {
+     "form": "fariintiisa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-121",
+      "text": "…safar dheer u gali jiray inuu fariintiisa gaarsiiyo qabiil kale",
+      "word": "fariintiisa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r003",
+   "sample": "random",
+   "stem": "dayd",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "dayday",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-67",
+      "text": "Dawaco ayaa isku dayday inay ku qanciso dibi weyn inuu…",
+      "word": "dayday"
+     }
+    },
+    {
+     "form": "daydaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-78",
+      "text": "…asalka ahaa. Sidoo kale, waxaad isku daydaa in aad shaqeyso qaabka diyaaradda ama…",
+      "word": "daydaa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r004",
+   "sample": "random",
+   "stem": "hadash",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "hadashaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-29",
+      "text": "…ah u booqataa suuqyada deegaankaaga, la hadashaa ganacsatada waaweyn, oo aad la socotaa…",
+      "word": "hadashaa"
+     }
+    },
+    {
+     "form": "hadasho",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-223",
+      "text": "…degdeg ah, isku day inaad ku hadasho luqaddaas maalin kasta, xitaa haddii aad…",
+      "word": "hadasho"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r005",
+   "sample": "random",
+   "stem": "dheeraad",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "dheeraad",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-116",
+      "text": "…ku dareyso sida salad ama suugo dheeraad ah? Macaamiil: Haa, fadlanigu dar salad…",
+      "word": "dheeraad"
+     }
+    },
+    {
+     "form": "dheeraadka",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-151",
+      "text": "…xarumaha adeeggu ay shaqeyn doonaan saacadaha dheeraadka ah laga bilaabo Sabtida soo socota…",
+      "word": "dheeraadka"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r006",
+   "sample": "random",
+   "stem": "ciidan",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "ciidanka",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-265",
+      "text": "Taliyaha Ciidanka Booliska ayaa sheegay in howlgalo lagu…",
+      "word": "Ciidanka"
+     }
+    },
+    {
+     "form": "ciidanku",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-2475",
+      "text": "…inta la wado gaariga waa mamnuuc. Ciidanku waxay tallaabo sharci ah ka qaadi…",
+      "word": "Ciidanku"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r007",
+   "sample": "random",
+   "stem": "uuliyad",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "uuliyad",
+     "count": 1,
+     "example": null
+    },
+    {
+     "form": "uuliyadda",
+     "count": 1,
+     "example": null
+    }
+   ]
+  },
+  {
+   "id": "r008",
+   "sample": "random",
+   "stem": "fudud",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "fudud",
+     "count": 15,
+     "example": {
+      "docId": "sopc-v2-13",
+      "text": "…inaad si adag u shaqayso; socodka fudud ee 30 daqiiqo ah maalintii ayaa ku…",
+      "word": "fudud"
+     }
+    },
+    {
+     "form": "fududaatay",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-959",
+      "text": "…saaxiibkiis. Dibbihii ayaa kala tagay, waxaana fududaatay in libaaxu mid mid u cuno…",
+      "word": "fududaatay"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r009",
+   "sample": "random",
+   "stem": "faaf",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "faafin",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-329",
+      "text": "…in dhibaatada la ogaado kahor intaanay faafin",
+      "word": "faafin"
+     }
+    },
+    {
+     "form": "faafinta",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-272",
+      "text": "…haween badan oo hormuud u ahaa faafinta aqoonta. Waxay barayeen carruurta guriga dhexdiisa…",
+      "word": "faafinta"
+     }
+    },
+    {
+     "form": "faafaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-35",
+      "text": "…qaab ama mug sugan, wuxuuna ku faafaa meel kasta oo bannaan oo uu…",
+      "word": "faafaa"
+     }
+    },
+    {
+     "form": "faafaan",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-696",
+      "text": "…waxay si xad-dhaaf ah ugu faafaan baraha bulshada, iyaga oo ujeedadoodu tahay…",
+      "word": "faafaan"
+     }
+    },
+    {
+     "form": "faafo",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-179",
+      "text": "…dhigaysa inuu si degdeg ah ugu faafo bulshada dhexdeeda. Geeraarku waa hiddaha ugu…",
+      "word": "faafo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r010",
+   "sample": "random",
+   "stem": "sameys",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "sameyso",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-41",
+      "text": "…ku bilaabataa qorshayn wanaagsan. Ugu horrayn, sameyso miisaaniyad bille ah oo aad ku…",
+      "word": "sameyso"
+     }
+    },
+    {
+     "form": "sameysteen",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-62",
+      "text": "…si fudud ugu sharxi doonto. Waxay sameysteen jadwal ay ku wada aqriyaan saacadaha…",
+      "word": "sameysteen"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r011",
+   "sample": "random",
+   "stem": "aasaas",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "aasaasay",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-267",
+      "text": "…ay soo gaareen gumeystayaashii, waxaa la aasaasay nidaamka waxbarashada casriga ah ee ku…",
+      "word": "aasaasay"
+     }
+    },
+    {
+     "form": "aasaaska",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-43",
+      "text": "…doono lacagta muddo go'an gudaheed. Waa aasaaska maareynta maaliyadda guul leh. Ganacsi kasta…",
+      "word": "aasaaska"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r012",
+   "sample": "random",
+   "stem": "ciyaar",
+   "totalForms": 6,
+   "forms": [
+    {
+     "form": "ciyaaraha",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-123",
+      "text": "Ciyaaraha hidaha iyo dhaqanka Soomaaliyeed waa kuwo…",
+      "word": "Ciyaaraha"
+     }
+    },
+    {
+     "form": "ciyaaraan",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-120",
+      "text": "…odayaashu waxay door muhiim ah ka ciyaaraan xallinta mashaakilaadka qoyska iyo deegaanka",
+      "word": "ciyaaraan"
+     }
+    },
+    {
+     "form": "ciyaarayeen",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-272",
+      "text": "…iyo jeer door muhiim ah ka ciyaarayeen waxbarashada bulshada. Inkastoo ay jireen caqabado…",
+      "word": "ciyaarayeen"
+     }
+    },
+    {
+     "form": "ciyaaraa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-123",
+      "text": "…dadku ku wada luuqeeyaan. Waxaa lagu ciyaaraa munaasabadaha farxadda leh sida aroosyada, ciidaha…",
+      "word": "ciyaaraa"
+     }
+    },
+    {
+     "form": "ciyaaro",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-7493",
+      "text": "…inta badan u isticmaali doonto (sida ciyaaro, shaqo xafiiseed, ama sawirro qaadis), iyo…",
+      "word": "ciyaaro"
+     }
+    },
+    {
+     "form": "ciyaarta",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-10",
+      "text": "…ayaa waxaa caawa ka dhici doona ciyaarta kama dambaysta ah ama fiinaalaha tartanka…",
+      "word": "ciyaarta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r013",
+   "sample": "random",
+   "stem": "kartid",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "kartid",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-134",
+      "text": "…oo aad si sahlan ku fahmi kartid. Halkan eeg sida loo xalliyo",
+      "word": "kartid"
+     }
+    },
+    {
+     "form": "kartidaada",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-23",
+      "text": "…waa fursad aad ku soo bandhigto kartidaada iyo aqoontaada. Si aad ugu guuleysato…",
+      "word": "kartidaada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r014",
+   "sample": "random",
+   "stem": "magaala",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "magaalada",
+     "count": 20,
+     "example": {
+      "docId": "sopc-v2-145",
+      "text": "…nadiifinayo xeebaha iyo goobaha dadweynaha ee magaalada Muqdisho. Ololahan oo socon doona muddo…",
+      "word": "magaalada"
+     }
+    },
+    {
+     "form": "magaaladii",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-453",
+      "text": "…maray buurta dheer, wuxuu arkay iftiinka magaaladii uu ku socday oo u muuqata…",
+      "word": "magaaladii"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r015",
+   "sample": "random",
+   "stem": "badbaad",
+   "totalForms": 5,
+   "forms": [
+    {
+     "form": "badbaado",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-118",
+      "text": "Wakiilka: Isbitaalka Guud ee Badbaado, magacaygu waa Nimco. Sideen ku caawiyaa…",
+      "word": "Badbaado"
+     }
+    },
+    {
+     "form": "badbaadaan",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-260",
+      "text": "…guuraan dhul sarreeya si ay uga badbaadaan daadadka ka dhalan kara roobabka. Hay'adaha…",
+      "word": "badbaadaan"
+     }
+    },
+    {
+     "form": "badbaadin",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-147",
+      "text": "…iyadoo la adeegsanayo farsamooyin cusub oo badbaadin kara carajada dhulka",
+      "word": "badbaadin"
+     }
+    },
+    {
+     "form": "badbaaday",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-755",
+      "text": "…tuurtay qudhaanjadii, taas oo ay ku badbaaday. Maalmo ka dib, nin ugaarsato ah…",
+      "word": "badbaaday"
+     }
+    },
+    {
+     "form": "badbaadino",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-162",
+      "text": "…Maxaan sameyn karnaa si aan u badbaadino biyaha beertayada xilligan kulul? Faarax: Waa…",
+      "word": "badbaadino"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r016",
+   "sample": "random",
+   "stem": "qeyb",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "qeyb",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-145",
+      "text": "…seddex maalmood ah ayaa waxaa ka qeyb qaadan doona dhalinyarada mutadawiciinta ah, ururada…",
+      "word": "qeyb"
+     }
+    },
+    {
+     "form": "qeybinta",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-150",
+      "text": "…Qaranka ee Gurmadka Abaaraha wuxuu bilaabay qeybinta raashin iyo biyo nadiif ah oo…",
+      "word": "qeybinta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r017",
+   "sample": "random",
+   "stem": "sameey",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "sameeyaa",
+     "count": 6,
+     "example": {
+      "docId": "sopc-v2-25",
+      "text": "…waxa aad jeceshahay. Su'aal: Maxaa la sameeyaa haddii aanan waayo-aragnimo lahayn? Jawaab…",
+      "word": "sameeyaa"
+     }
+    },
+    {
+     "form": "sameeyaan",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-174",
+      "text": "…in dadka kale ay dabagal ku sameeyaan dhaqdhaqaaqyadaada iyo meelaha aad booqanayso. Isticmaalka…",
+      "word": "sameeyaan"
+     }
+    },
+    {
+     "form": "sameeyeen",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-665",
+      "text": "…karnaa oo waan baxsannaaa'. Qoolleyddii waxay sameeyeen sidii uu yiri hogaamiyahoodii, wayna qaadeen…",
+      "word": "sameeyeen"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r018",
+   "sample": "random",
+   "stem": "rajeyn",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "rajeyn",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-2695",
+      "text": "…waxaa ka muuqata duco iyo u rajeyn nolol wanaagsan lammaanaha cusub. Waa xaflad…",
+      "word": "rajeyn"
+     }
+    },
+    {
+     "form": "rajeynayaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-132",
+      "text": "…dadaal samee oo guul baan kuu rajeynayaa",
+      "word": "rajeynayaa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r019",
+   "sample": "random",
+   "stem": "aroos",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "arooska",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-122",
+      "text": "Arooska dhaqameed ee Soomaalidu waa xaflad weyn…",
+      "word": "Arooska"
+     }
+    },
+    {
+     "form": "aroosyada",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-55",
+      "text": "…ayaa la xirtaa munaasabadaha waaweyn sida aroosyada, ciidaha, iyo xilliyada dabaaldegga. Midabbada dhalaalaya…",
+      "word": "aroosyada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r020",
+   "sample": "random",
+   "stem": "jooji",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "joojiyo",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-121",
+      "text": "…la isku gaarsiiyo ama colaadaha lagu joojiyo, iyadoo hal abuurku uu safar dheer…",
+      "word": "joojiyo"
+     }
+    },
+    {
+     "form": "jooji",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-87",
+      "text": "…u ilaalino akoonkaaga. Macaamiil: Haa, fadlan jooji oo iigu bedel mid cusub. Wakiilka…",
+      "word": "jooji"
+     }
+    },
+    {
+     "form": "joojiyaha",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-227",
+      "text": "…keydka ah. Imtixaan bireega ama kala-joojiyaha si aad u hubiso inuu si…",
+      "word": "joojiyaha"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r021",
+   "sample": "random",
+   "stem": "xoojiy",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "xoojiyaa",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-129",
+      "text": "…kulul sida shaaha udgoon. Dhaqankani wuxuu xoojiyaa walaaltinimada, kalgacalka, iyo nabadgelyada ka dhexaysa…",
+      "word": "xoojiyaa"
+     }
+    },
+    {
+     "form": "xoojiyaan",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-71",
+      "text": "…Dawladda iyo hay'adaha gargaarku waa inay xoojiyaan nidaamka waraabka si looga gudbo ku…",
+      "word": "xoojiyaan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r022",
+   "sample": "random",
+   "stem": "nadiifiy",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "nadiifiyaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-26",
+      "text": "…gaarto. Intaas ka dib, waxaa la nadiifiyaa wixii dhoobo ama caleemo qallalan ah…",
+      "word": "nadiifiyaa"
+     }
+    },
+    {
+     "form": "nadiifiyaan",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-39",
+      "text": "…Biyuhu waxay caawiyaan dheef-shiidka, waxay nadiifiyaan sunta jirka, waxayna ilaaliyaan qoyaanka maqaarka…",
+      "word": "nadiifiyaan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r023",
+   "sample": "random",
+   "stem": "siin",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "siin",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-15",
+      "text": "…Maxaa talo ah oo aad i siin kartaa? Axmed: Isku day inaad telefoonka…",
+      "word": "siin"
+     }
+    },
+    {
+     "form": "siino",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-90",
+      "text": "…rasiidka qaybta hore si aan kuugu siino mid cusub isla markiiba. Macaamiil: Aad…",
+      "word": "siino"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r024",
+   "sample": "random",
+   "stem": "hagaajiy",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "hagaajiyaan",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-57",
+      "text": "…qoyaanka maqaarka. Sidoo kale, biyuhu waxay hagaajiyaan wareegga dhiigga waxayna kordhiyaan tamarta qofka…",
+      "word": "hagaajiyaan"
+     }
+    },
+    {
+     "form": "hagaajiyaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-102",
+      "text": "…sunta, wuxuu ilaaliyaa qoyaanka maqaarka, wuxuuna hagaajiyaa shaqada maskaxda iyo wareegga dhiigga. Khubaradaha…",
+      "word": "hagaajiyaa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r025",
+   "sample": "random",
+   "stem": "buraanbur",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "buraanburku",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-98",
+      "text": "Buraanburku waa halabuur ay dumarka Soomaaliyeed u…",
+      "word": "Buraanburku"
+     }
+    },
+    {
+     "form": "buraanburayaan",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-98",
+      "text": "…murti qoto dheer. Marka ay haweenku buraanburayaan, waxay muujinayaan xoogga iyo kartida ay…",
+      "word": "buraanburayaan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r026",
+   "sample": "random",
+   "stem": "dhibc",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "dhibcaha",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-160",
+      "text": "…qaado wacyiga ku saabsan faa'iidooyinka waraabka dhibcaha iyo sida loo rakibo agabkiisa",
+      "word": "dhibcaha"
+     }
+    },
+    {
+     "form": "dhibcoodka",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-327",
+      "text": "…iyadoo aan la khasaarin. Isticmaalka waraabka dhibcoodka ah ama midka durdurka ah ee…",
+      "word": "dhibcoodka"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r027",
+   "sample": "random",
+   "stem": "luqad",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "luqad",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-223",
+      "text": "Barashada luqad cusub waxay u baahan tahay dadaal…",
+      "word": "luqad"
+     }
+    },
+    {
+     "form": "luqadaha",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-50",
+      "text": "…Waxaa ka mid ah hawlahaas barashada luqadaha, xallinta mashaakisha, iyo garashada muuqaallada. Maanta…",
+      "word": "luqadaha"
+     }
+    },
+    {
+     "form": "luqadda",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-223",
+      "text": "…filimaan, oo akhri buugaag ku qoran luqadda aad baraneyso. Isticmaal codsiyada taleefannada ee…",
+      "word": "luqadda"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r028",
+   "sample": "random",
+   "stem": "noloshe",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "nolosheeda",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-316",
+      "text": "…ay bulshadu ku aragto taariikhdeeda iyo nolosheeda. Gabaygu wuxuu ahaa habka ugu muhiimsan…",
+      "word": "nolosheeda"
+     }
+    },
+    {
+     "form": "nolosheena",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-31",
+      "text": "…shan tufaax. Habkan waxaa loo adeegsadaa nolosheena maalinlaha ah si aan u ogaano…",
+      "word": "nolosheena"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r029",
+   "sample": "random",
+   "stem": "socd",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "socdaan",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-37",
+      "text": "…Uranus, iyo Neptune. Dhammaantood waxay ku socdaan wadooyin loo yaqaan wareeg ama orbits…",
+      "word": "socdaan"
+     }
+    },
+    {
+     "form": "socday",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-453",
+      "text": "…wuxuu arkay iftiinka magaaladii uu ku socday oo u muuqata. Wuxuu dareemay tamar…",
+      "word": "socday"
+     }
+    },
+    {
+     "form": "socdeen",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-875",
+      "text": "…oo gaajaysan oo harraadsan. Intii ay socdeen ayay heleen kiish ay ku jireen…",
+      "word": "socdeen"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r030",
+   "sample": "random",
+   "stem": "cel",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "celinta",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-94",
+      "text": "…soo xaroota waxaan u adeegsadaa soo celinta alaabta iyo horumarinta.' Axmed: 'Anigu…",
+      "word": "celinta"
+     }
+    },
+    {
+     "form": "celin",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-185",
+      "text": "…cisho ah oo aad ku soo celin karto adigoo haysta rasiidka asalka ah",
+      "word": "celin"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r031",
+   "sample": "random",
+   "stem": "nin",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "nin",
+     "count": 14,
+     "example": {
+      "docId": "sopc-v2-140",
+      "text": "Labo nin oo beeraley ah ayaa ku wada…",
+      "word": "nin"
+     }
+    },
+    {
+     "form": "ninkii",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-66",
+      "text": "…Maalin maalmaha ka mid ah ayaa ninkii wuxuu helay dheeman qaali ah oo…",
+      "word": "ninkii"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r032",
+   "sample": "random",
+   "stem": "cinw",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "cinwaanka",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-86",
+      "text": "…Fadlan ii sheeg magacaaga buuxa iyo cinwaanka iimaylkaaga si aan kuu aqoonsado. Macaamiil…",
+      "word": "cinwaanka"
+     }
+    },
+    {
+     "form": "cinwaankayga",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-119",
+      "text": "…dalbo kaar cusub oo soo dir cinwaankayga guriga. Wakiilka: Waa la aqbalay, kaarka…",
+      "word": "cinwaankayga"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r033",
+   "sample": "random",
+   "stem": "beeraley",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "beeraleyda",
+     "count": 10,
+     "example": {
+      "docId": "sopc-v2-160",
+      "text": "…uumiga iyo qashinka biyaha ka dhasha. Beeraleyda Soomaaliyeed waxay si weyn uga faa'iideysan…",
+      "word": "Beeraleyda"
+     }
+    },
+    {
+     "form": "beeraleydu",
+     "count": 7,
+     "example": {
+      "docId": "sopc-v2-159",
+      "text": "…gobollada ay abaartu ku badan tahay. Beeraleydu waxay u baahan yihiin inay bartaan…",
+      "word": "Beeraleydu"
+     }
+    },
+    {
+     "form": "beeraley",
+     "count": 5,
+     "example": {
+      "docId": "sopc-v2-165",
+      "text": "…ku taal Koonfurta Soomaaliya, waxaa noolaa beeraley la oran jiray Muuse oo markasta…",
+      "word": "beeraley"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r034",
+   "sample": "random",
+   "stem": "caabuq",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "caabuqyada",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-56",
+      "text": "…ka caawisa inuu qofku iska caabiyo caabuqyada kala duwan. Waa inaan dadaal u…",
+      "word": "caabuqyada"
+     }
+    },
+    {
+     "form": "caabuqyo",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-331",
+      "text": "…Maxamed: Aabe, roobka badan wuxuu keenaa caabuqyo fangas ah. Waa inaan ku buufinaa…",
+      "word": "caabuqyo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r035",
+   "sample": "random",
+   "stem": "sonkor",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "sonkorta",
+     "count": 11,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "S: Ma xun baa sonkorta? J: Sonkorta dabiiciga ah ee laga…",
+      "word": "sonkorta"
+     }
+    },
+    {
+     "form": "sonkor",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-5",
+      "text": "…cabitaannada macaan biyo ama shaah aan sonkor lahayn",
+      "word": "sonkor"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r036",
+   "sample": "random",
+   "stem": "nadiifis",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "nadiifiso",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-77",
+      "text": "…aan la isticmaalin isla markaana aad nadiifiso keydka xogta ee barnaamijyada ama cache…",
+      "word": "nadiifiso"
+     }
+    },
+    {
+     "form": "nadiifisaa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-12",
+      "text": "…maalintii waxay caawisaa dheef-shiidka, waxay nadiifisaa sunta jidhka, waxayna ka ilaalisaa maqaarka…",
+      "word": "nadiifisaa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r037",
+   "sample": "random",
+   "stem": "maalm",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "maalmaha",
+     "count": 13,
+     "example": {
+      "docId": "sopc-v2-118",
+      "text": "…Waad salaaman tihiin. Dhakhtarku wuxuu shaqeeyaa maalmaha Axadda iyo Arbacada. Maalintee ayaad doorbidaysaa…",
+      "word": "maalmaha"
+     }
+    },
+    {
+     "form": "maalmo",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-662",
+      "text": "…sheegay. Wiilkii wuxuu ku qoslay doqonimadooda. Maalmo ka dib, ayuu libaax dhab ah…",
+      "word": "Maalmo"
+     }
+    },
+    {
+     "form": "maalmood",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-145",
+      "text": "…Ololahan oo socon doona muddo seddex maalmood ah ayaa waxaa ka qeyb qaadan…",
+      "word": "maalmood"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r038",
+   "sample": "random",
+   "stem": "dhigan",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "dhigan",
+     "count": 4,
+     "example": {
+      "docId": "sopc-v2-45",
+      "text": "…ah. Maareynta socodka lacagta waxay ka dhigan tahay in la hubiyo in lacagta…",
+      "word": "dhigan"
+     }
+    },
+    {
+     "form": "dhiganta",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-81",
+      "text": "…waxaad isticmaashaa 3 jeer 4 taas oo u dhiganta 12. Barashada jadwalka isku-dhufashada ayaa ah…",
+      "word": "dhiganta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r039",
+   "sample": "random",
+   "stem": "booqa",
+   "totalForms": 3,
+   "forms": [
+    {
+     "form": "booqanaya",
+     "count": 2,
+     "example": {
+      "docId": "sopc-v2-1",
+      "text": "…ah gobollada dalka. Shaqaalaha caafimaadka ayaa booqanaya guryaha si ay u gaarsiiyaan adeeggan…",
+      "word": "booqanaya"
+     }
+    },
+    {
+     "form": "booqata",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-963",
+      "text": "…uu u soo jiito ugaadha soo booqata oo uu cuno. Sagaaradii oo ahayd…",
+      "word": "booqata"
+     }
+    },
+    {
+     "form": "booqataa",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-29",
+      "text": "…Waa inaad si joogto ah u booqataa suuqyada deegaankaaga, la hadashaa ganacsatada waaweyn…",
+      "word": "booqataa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r040",
+   "sample": "random",
+   "stem": "naxariis",
+   "totalForms": 2,
+   "forms": [
+    {
+     "form": "naxariis",
+     "count": 3,
+     "example": {
+      "docId": "sopc-v2-184",
+      "text": "…iyadoo la adeegsanayo cod degan oo naxariis leh. Aqoonsashada qaladka haddii uu jiro…",
+      "word": "naxariis"
+     }
+    },
+    {
+     "form": "naxariistay",
+     "count": 1,
+     "example": {
+      "docId": "sopc-v2-340",
+      "text": "…la kulmay maroodi weyn oo u naxariistay. Maroodigii wuxuu dibigii ku hagay waddadii…",
+      "word": "naxariistay"
+     }
+    }
+   ]
+  }
+ ],
+ "comparisons": [
+  {
+   "id": "c001",
+   "word": "iyo",
+   "example": {
+    "docId": "sopc-v2-5",
+    "text": "…leh, laakiin sonkorta lagu daro cabitaannada iyo macmacaanka warshadaysan waxay keeni kartaa cayil…",
+    "word": "iyo"
+   },
+   "a": [
+    {
+     "form": "iyo",
+     "count": 460
+    },
+    {
+     "form": "iyaga",
+     "count": 14
+    },
+    {
+     "form": "iyada",
+     "count": 12
+    },
+    {
+     "form": "iyadu",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "iyo",
+     "count": 460
+    }
+   ],
+   "aTotal": 4,
+   "bTotal": 1,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c002",
+   "word": "waa",
+   "example": {
+    "docId": "sopc-v2-5",
+    "text": "…dabiiciga ah ee laga helo midhaha waa mid caafimaad leh, laakiin sonkorta lagu…",
+    "word": "waa"
+   },
+   "a": [
+    {
+     "form": "waa",
+     "count": 317
+    },
+    {
+     "form": "waayo",
+     "count": 9
+    },
+    {
+     "form": "waana",
+     "count": 4
+    },
+    {
+     "form": "waagii",
+     "count": 2
+    },
+    {
+     "form": "waagu",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "waa",
+     "count": 317
+    },
+    {
+     "form": "waayo",
+     "count": 9
+    },
+    {
+     "form": "waana",
+     "count": 4
+    },
+    {
+     "form": "waagii",
+     "count": 2
+    },
+    {
+     "form": "waagu",
+     "count": 1
+    },
+    {
+     "form": "waayahay",
+     "count": 1
+    }
+   ],
+   "aTotal": 5,
+   "bTotal": 6,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c003",
+   "word": "waxay",
+   "example": {
+    "docId": "sopc-v2-5",
+    "text": "…lagu daro cabitaannada iyo macmacaanka warshadaysan waxay keeni kartaa cayil iyo xanuunka macaanka…",
+    "word": "waxay"
+   },
+   "a": [
+    {
+     "form": "waxay",
+     "count": 240
+    },
+    {
+     "form": "waxaa",
+     "count": 148
+    },
+    {
+     "form": "waxaan",
+     "count": 59
+    },
+    {
+     "form": "wax",
+     "count": 43
+    },
+    {
+     "form": "waxayna",
+     "count": 19
+    },
+    {
+     "form": "waxaana",
+     "count": 9
+    }
+   ],
+   "b": [
+    {
+     "form": "waxay",
+     "count": 240
+    },
+    {
+     "form": "waxaa",
+     "count": 148
+    },
+    {
+     "form": "waxaan",
+     "count": 59
+    },
+    {
+     "form": "wax",
+     "count": 43
+    },
+    {
+     "form": "waxayna",
+     "count": 19
+    }
+   ],
+   "aTotal": 6,
+   "bTotal": 5,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c004",
+   "word": "soo",
+   "example": {
+    "docId": "sopc-v2-1",
+    "text": "…looga hortago cudurrada faafa ee ku soo badanaya qaar ka mid ah gobollada…",
+    "word": "soo"
+   },
+   "a": [
+    {
+     "form": "soo",
+     "count": 238
+    },
+    {
+     "form": "kasoo",
+     "count": 1
+    },
+    {
+     "form": "kusoo",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "soo",
+     "count": 238
+    }
+   ],
+   "aTotal": 3,
+   "bTotal": 1,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c005",
+   "word": "mid",
+   "example": {
+    "docId": "sopc-v2-1",
+    "text": "…ee ku soo badanaya qaar ka mid ah gobollada dalka. Shaqaalaha caafimaadka ayaa…",
+    "word": "mid"
+   },
+   "a": [
+    {
+     "form": "mid",
+     "count": 152
+    },
+    {
+     "form": "midka",
+     "count": 6
+    },
+    {
+     "form": "midhaha",
+     "count": 3
+    },
+    {
+     "form": "midna",
+     "count": 2
+    },
+    {
+     "form": "midkiiba",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "mid",
+     "count": 152
+    },
+    {
+     "form": "midka",
+     "count": 6
+    },
+    {
+     "form": "kamid",
+     "count": 4
+    },
+    {
+     "form": "midhaha",
+     "count": 3
+    },
+    {
+     "form": "midna",
+     "count": 2
+    }
+   ],
+   "aTotal": 5,
+   "bTotal": 5,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c006",
+   "word": "aan",
+   "example": {
+    "docId": "sopc-v2-5",
+    "text": "…beddesho cabitaannada macaan biyo ama shaah aan sonkor lahayn",
+    "word": "aan"
+   },
+   "a": [
+    {
+     "form": "aan",
+     "count": 129
+    },
+    {
+     "form": "aanta",
+     "count": 4
+    }
+   ],
+   "b": [
+    {
+     "form": "aan",
+     "count": 129
+    },
+    {
+     "form": "aanan",
+     "count": 5
+    },
+    {
+     "form": "aanay",
+     "count": 5
+    },
+    {
+     "form": "aanka",
+     "count": 5
+    },
+    {
+     "form": "aanta",
+     "count": 4
+    },
+    {
+     "form": "aanno",
+     "count": 2
+    },
+    {
+     "form": "aanada",
+     "count": 1
+    }
+   ],
+   "aTotal": 2,
+   "bTotal": 7,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c007",
+   "word": "loo",
+   "example": {
+    "docId": "sopc-v2-5",
+    "text": "…cayil iyo xanuunka macaanka. S: Sidee loo yareeyaa isticmaalka sonkorta? J: Isku day…",
+    "word": "loo"
+   },
+   "a": [
+    {
+     "form": "loo",
+     "count": 120
+    },
+    {
+     "form": "looga",
+     "count": 19
+    },
+    {
+     "form": "loogu",
+     "count": 10
+    },
+    {
+     "form": "loona",
+     "count": 3
+    },
+    {
+     "form": "loogaga",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "loo",
+     "count": 120
+    },
+    {
+     "form": "looga",
+     "count": 19
+    },
+    {
+     "form": "loogu",
+     "count": 10
+    },
+    {
+     "form": "loona",
+     "count": 3
+    }
+   ],
+   "aTotal": 5,
+   "bTotal": 4,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c008",
+   "word": "lagu",
+   "example": {
+    "docId": "sopc-v2-1",
+    "text": "…ah u bilowday olole ballaaran oo lagu tallaalayo carruurta ka yar shanta sano…",
+    "word": "lagu"
+   },
+   "a": [
+    {
+     "form": "lagu",
+     "count": 109
+    },
+    {
+     "form": "laguna",
+     "count": 2
+    },
+    {
+     "form": "laguugu",
+     "count": 2
+    },
+    {
+     "form": "lagugu",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "lagu",
+     "count": 109
+    },
+    {
+     "form": "laguna",
+     "count": 2
+    },
+    {
+     "form": "lagugu",
+     "count": 1
+    }
+   ],
+   "aTotal": 4,
+   "bTotal": 3,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c009",
+   "word": "badan",
+   "example": {
+    "docId": "sopc-v2-14",
+    "text": "…karbohaydraytyada adag. Iska ilaali cunista sonkorta badan iyo dufanka xad-dhaafka ah. Cunista…",
+    "word": "badan"
+   },
+   "a": [
+    {
+     "form": "badan",
+     "count": 107
+    },
+    {
+     "form": "badantahay",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "badan",
+     "count": 107
+    },
+    {
+     "form": "labadan",
+     "count": 1
+    }
+   ],
+   "aTotal": 2,
+   "bTotal": 2,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c010",
+   "word": "sida",
+   "example": {
+    "docId": "sopc-v2-12",
+    "text": "…toddobaatan biyo ah, taas oo muujinaysa sida ay lagama maarmaan u yihiin. Cabitaanka…",
+    "word": "sida"
+   },
+   "a": [
+    {
+     "form": "sida",
+     "count": 79
+    },
+    {
+     "form": "sidoo",
+     "count": 28
+    }
+   ],
+   "b": [
+    {
+     "form": "sida",
+     "count": 79
+    }
+   ],
+   "aTotal": 2,
+   "bTotal": 1,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c011",
+   "word": "wakiilka",
+   "example": {
+    "docId": "sopc-v2-118",
+    "text": "Wakiilka: Isbitaalka Guud ee Badbaado, magacaygu waa…",
+    "word": "Wakiilka"
+   },
+   "a": [
+    {
+     "form": "wakiilka",
+     "count": 79
+    }
+   ],
+   "b": [
+    {
+     "form": "wakiilka",
+     "count": 79
+    },
+    {
+     "form": "wakiilo",
+     "count": 1
+    }
+   ],
+   "aTotal": 1,
+   "bTotal": 2,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c012",
+   "word": "macaamiil",
+   "example": {
+    "docId": "sopc-v2-118",
+    "text": "…magacaygu waa Nimco. Sideen ku caawiyaa? Macaamiil: Salaan, waxaan rabay inaan ballan la…",
+    "word": "Macaamiil"
+   },
+   "a": [
+    {
+     "form": "macaamiil",
+     "count": 71
+    },
+    {
+     "form": "macaamiilku",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "macaamiil",
+     "count": 71
+    }
+   ],
+   "aTotal": 2,
+   "bTotal": 1,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c013",
+   "word": "kale",
+   "example": {
+    "docId": "sopc-v2-56",
+    "text": "…iyo xanuunnada ku dhaca wadnaha. Sidoo kale, waxay xoojisaa hab-dhiska difaaca jidhka…",
+    "word": "kale"
+   },
+   "a": [
+    {
+     "form": "kale",
+     "count": 64
+    },
+    {
+     "form": "kalena",
+     "count": 3
+    }
+   ],
+   "b": [
+    {
+     "form": "kale",
+     "count": 64
+    },
+    {
+     "form": "kalena",
+     "count": 3
+    },
+    {
+     "form": "kaloo",
+     "count": 1
+    },
+    {
+     "form": "kalyaha",
+     "count": 1
+    }
+   ],
+   "aTotal": 2,
+   "bTotal": 4,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c014",
+   "word": "cusub",
+   "example": {
+    "docId": "sopc-v2-16",
+    "text": "…xidhiidha dadka aad jeceshahay, barashada xirfad cusub, iyo inaad waqti u hesho nasashada…",
+    "word": "cusub"
+   },
+   "a": [
+    {
+     "form": "cusub",
+     "count": 55
+    }
+   ],
+   "b": [
+    {
+     "form": "cusub",
+     "count": 55
+    },
+    {
+     "form": "cusbo",
+     "count": 3
+    }
+   ],
+   "aTotal": 1,
+   "bTotal": 2,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c015",
+   "word": "yar",
+   "example": {
+    "docId": "sopc-v2-1",
+    "text": "…ballaaran oo lagu tallaalayo carruurta ka yar shanta sano. Ololahan ayaa looga golleeyahay…",
+    "word": "yar"
+   },
+   "a": [
+    {
+     "form": "yar",
+     "count": 52
+    },
+    {
+     "form": "yaraan",
+     "count": 11
+    },
+    {
+     "form": "yaraynaysaa",
+     "count": 2
+    },
+    {
+     "form": "yaraada",
+     "count": 1
+    },
+    {
+     "form": "yaraysaa",
+     "count": 1
+    },
+    {
+     "form": "yaree",
+     "count": 1
+    },
+    {
+     "form": "yaryahay",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "yar",
+     "count": 52
+    },
+    {
+     "form": "yaraan",
+     "count": 11
+    },
+    {
+     "form": "yaraada",
+     "count": 1
+    },
+    {
+     "form": "yaraysaa",
+     "count": 1
+    },
+    {
+     "form": "yaree",
+     "count": 1
+    }
+   ],
+   "aTotal": 7,
+   "bTotal": 5,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c016",
+   "word": "marka",
+   "example": {
+    "docId": "sopc-v2-13",
+    "text": "…tiirarka ugu muhiimsan ee caafimaadka wanaagsan. Marka aad jimicsi samayso, wadnahaagu wuu xoogaysanayaa…",
+    "word": "Marka"
+   },
+   "a": [
+    {
+     "form": "marka",
+     "count": 51
+    },
+    {
+     "form": "markii",
+     "count": 19
+    },
+    {
+     "form": "mar",
+     "count": 16
+    },
+    {
+     "form": "marin",
+     "count": 5
+    },
+    {
+     "form": "martay",
+     "count": 4
+    },
+    {
+     "form": "maray",
+     "count": 2
+    },
+    {
+     "form": "mareen",
+     "count": 2
+    },
+    {
+     "form": "markiiba",
+     "count": 2
+    },
+    {
+     "form": "marnaba",
+     "count": 2
+    },
+    {
+     "form": "marayay",
+     "count": 1
+    },
+    {
+     "form": "marayey",
+     "count": 1
+    },
+    {
+     "form": "marinkii",
+     "count": 1
+    },
+    {
+     "form": "maro",
+     "count": 1
+    },
+    {
+     "form": "marta",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "marka",
+     "count": 51
+    },
+    {
+     "form": "markii",
+     "count": 19
+    },
+    {
+     "form": "mar",
+     "count": 16
+    },
+    {
+     "form": "marin",
+     "count": 5
+    },
+    {
+     "form": "martay",
+     "count": 4
+    },
+    {
+     "form": "maray",
+     "count": 2
+    },
+    {
+     "form": "mareen",
+     "count": 2
+    },
+    {
+     "form": "marayay",
+     "count": 1
+    },
+    {
+     "form": "marayey",
+     "count": 1
+    },
+    {
+     "form": "maro",
+     "count": 1
+    },
+    {
+     "form": "marta",
+     "count": 1
+    }
+   ],
+   "aTotal": 14,
+   "bTotal": 11,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c017",
+   "word": "haddii",
+   "example": {
+    "docId": "sopc-v2-15",
+    "text": "…waqti hore. Axmed: Waa run, laakiin haddii aadan helin 7-8 saacadood oo hurdo ah…",
+    "word": "haddii"
+   },
+   "a": [
+    {
+     "form": "haddii",
+     "count": 50
+    },
+    {
+     "form": "hadda",
+     "count": 12
+    },
+    {
+     "form": "had",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "haddii",
+     "count": 50
+    },
+    {
+     "form": "hadda",
+     "count": 12
+    },
+    {
+     "form": "haddana",
+     "count": 6
+    },
+    {
+     "form": "haddaba",
+     "count": 2
+    },
+    {
+     "form": "had",
+     "count": 1
+    }
+   ],
+   "aTotal": 3,
+   "bTotal": 5,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c018",
+   "word": "bulshada",
+   "example": {
+    "docId": "sopc-v2-143",
+    "text": "Wasaaradda Caafimaadka iyo Daryeelka Bulshada waxay ogeysineysaa dhammaan muwaadiniinta in ololaha…",
+    "word": "Bulshada"
+   },
+   "a": [
+    {
+     "form": "bulshada",
+     "count": 46
+    },
+    {
+     "form": "bulshadu",
+     "count": 7
+    }
+   ],
+   "b": [
+    {
+     "form": "bulshada",
+     "count": 46
+    }
+   ],
+   "aTotal": 2,
+   "bTotal": 1,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c019",
+   "word": "muhiim",
+   "example": {
+    "docId": "sopc-v2-15",
+    "text": "…ogtahay in hurdadu ay tahay qayb muhiim ah oo ka mid ah caafimaadkeena…",
+    "word": "muhiim"
+   },
+   "a": [
+    {
+     "form": "muhiim",
+     "count": 45
+    }
+   ],
+   "b": [
+    {
+     "form": "muhiim",
+     "count": 45
+    },
+    {
+     "form": "muhiimka",
+     "count": 11
+    }
+   ],
+   "aTotal": 1,
+   "bTotal": 2,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c020",
+   "word": "kala",
+   "example": {
+    "docId": "sopc-v2-14",
+    "text": "…macnaheedu waa in la cuno noocyo kala duwan oo cunto ah oo bixiya…",
+    "word": "kala"
+   },
+   "a": [
+    {
+     "form": "kala",
+     "count": 43
+    },
+    {
+     "form": "kaliya",
+     "count": 6
+    },
+    {
+     "form": "kaloo",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "kala",
+     "count": 43
+    }
+   ],
+   "aTotal": 3,
+   "bTotal": 1,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c021",
+   "word": "kasta",
+   "example": {
+    "docId": "sopc-v2-56",
+    "text": "…jidhka bini'aadamku u baahan yahay maalin kasta. Waxay hodan ku tahay fiitamiinnada, macdanta…",
+    "word": "kasta"
+   },
+   "a": [
+    {
+     "form": "kasta",
+     "count": 43
+    },
+    {
+     "form": "kastaba",
+     "count": 5
+    },
+    {
+     "form": "kasoo",
+     "count": 1
+    },
+    {
+     "form": "kastaa",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "kasta",
+     "count": 43
+    },
+    {
+     "form": "kaas",
+     "count": 9
+    },
+    {
+     "form": "kaasoo",
+     "count": 1
+    },
+    {
+     "form": "kastaa",
+     "count": 1
+    }
+   ],
+   "aTotal": 4,
+   "bTotal": 4,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c022",
+   "word": "hore",
+   "example": {
+    "docId": "sopc-v2-15",
+    "text": "…igu adag tahay inaan seexdo waqti hore. Axmed: Waa run, laakiin haddii aadan…",
+    "word": "hore"
+   },
+   "a": [
+    {
+     "form": "hore",
+     "count": 39
+    },
+    {
+     "form": "hor",
+     "count": 20
+    },
+    {
+     "form": "horay",
+     "count": 2
+    },
+    {
+     "form": "hortaga",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "hore",
+     "count": 39
+    },
+    {
+     "form": "hor",
+     "count": 20
+    },
+    {
+     "form": "kahor",
+     "count": 9
+    },
+    {
+     "form": "horay",
+     "count": 2
+    }
+   ],
+   "aTotal": 4,
+   "bTotal": 4,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c023",
+   "word": "inaan",
+   "example": {
+    "docId": "sopc-v2-15",
+    "text": "…mararka qaarkood way igu adag tahay inaan seexdo waqti hore. Axmed: Waa run…",
+    "word": "inaan"
+   },
+   "a": [
+    {
+     "form": "inaan",
+     "count": 39
+    },
+    {
+     "form": "inaanan",
+     "count": 1
+    },
+    {
+     "form": "inaanay",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "inaan",
+     "count": 39
+    }
+   ],
+   "aTotal": 3,
+   "bTotal": 1,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c024",
+   "word": "taas",
+   "example": {
+    "docId": "sopc-v2-12",
+    "text": "…kooban yahay boqolkiiba toddobaatan biyo ah, taas oo muujinaysa sida ay lagama maarmaan…",
+    "word": "taas"
+   },
+   "a": [
+    {
+     "form": "taas",
+     "count": 36
+    }
+   ],
+   "b": [
+    {
+     "form": "taas",
+     "count": 36
+    },
+    {
+     "form": "taasoo",
+     "count": 5
+    }
+   ],
+   "aTotal": 1,
+   "bTotal": 2,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c025",
+   "word": "baahan",
+   "example": {
+    "docId": "sopc-v2-56",
+    "text": "…muhiimsan ee uu jidhka bini'aadamku u baahan yahay maalin kasta. Waxay hodan ku…",
+    "word": "baahan"
+   },
+   "a": [
+    {
+     "form": "baahan",
+     "count": 33
+    },
+    {
+     "form": "baahanahay",
+     "count": 5
+    },
+    {
+     "form": "baahnaa",
+     "count": 2
+    }
+   ],
+   "b": [
+    {
+     "form": "baahan",
+     "count": 33
+    }
+   ],
+   "aTotal": 3,
+   "bTotal": 1,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c026",
+   "word": "jiray",
+   "example": {
+    "docId": "sopc-v2-165",
+    "text": "…Soomaaliya, waxaa noolaa beeraley la oran jiray Muuse oo markasta ka caban jiray…",
+    "word": "jiray"
+   },
+   "a": [
+    {
+     "form": "jiray",
+     "count": 31
+    },
+    {
+     "form": "jireen",
+     "count": 15
+    },
+    {
+     "form": "jiro",
+     "count": 11
+    },
+    {
+     "form": "jiraan",
+     "count": 9
+    },
+    {
+     "form": "jirin",
+     "count": 9
+    },
+    {
+     "form": "jirtay",
+     "count": 8
+    },
+    {
+     "form": "jirtaa",
+     "count": 7
+    },
+    {
+     "form": "jirta",
+     "count": 6
+    },
+    {
+     "form": "jiraa",
+     "count": 4
+    },
+    {
+     "form": "jirka",
+     "count": 4
+    },
+    {
+     "form": "jir",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "jiray",
+     "count": 31
+    },
+    {
+     "form": "jireen",
+     "count": 15
+    },
+    {
+     "form": "jiro",
+     "count": 11
+    },
+    {
+     "form": "jiraan",
+     "count": 9
+    },
+    {
+     "form": "jirin",
+     "count": 9
+    },
+    {
+     "form": "jirtay",
+     "count": 8
+    },
+    {
+     "form": "jirtaa",
+     "count": 7
+    },
+    {
+     "form": "jirta",
+     "count": 6
+    },
+    {
+     "form": "jiraa",
+     "count": 4
+    },
+    {
+     "form": "jirka",
+     "count": 4
+    },
+    {
+     "form": "jireenka",
+     "count": 3
+    },
+    {
+     "form": "jir",
+     "count": 1
+    }
+   ],
+   "aTotal": 11,
+   "bTotal": 12,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c027",
+   "word": "maalin",
+   "example": {
+    "docId": "sopc-v2-56",
+    "text": "…uu jidhka bini'aadamku u baahan yahay maalin kasta. Waxay hodan ku tahay fiitamiinnada…",
+    "word": "maalin"
+   },
+   "a": [
+    {
+     "form": "maalin",
+     "count": 31
+    },
+    {
+     "form": "maalintii",
+     "count": 9
+    },
+    {
+     "form": "maalinta",
+     "count": 5
+    },
+    {
+     "form": "maal",
+     "count": 1
+    },
+    {
+     "form": "maalinba",
+     "count": 1
+    },
+    {
+     "form": "maalka",
+     "count": 1
+    },
+    {
+     "form": "maalku",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "maalin",
+     "count": 31
+    },
+    {
+     "form": "maal",
+     "count": 1
+    },
+    {
+     "form": "maalka",
+     "count": 1
+    },
+    {
+     "form": "maalku",
+     "count": 1
+    }
+   ],
+   "aTotal": 7,
+   "bTotal": 4,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c028",
+   "word": "dib",
+   "example": {
+    "docId": "sopc-v2-15",
+    "text": "…hurdo ah, jidhkaagu ma awoodo inuu dib u soo kabsado. Faarax: Maxaa talo…",
+    "word": "dib"
+   },
+   "a": [
+    {
+     "form": "dib",
+     "count": 29
+    },
+    {
+     "form": "dibna",
+     "count": 10
+    },
+    {
+     "form": "kadib",
+     "count": 3
+    }
+   ],
+   "b": [
+    {
+     "form": "dib",
+     "count": 29
+    },
+    {
+     "form": "dibna",
+     "count": 10
+    }
+   ],
+   "aTotal": 3,
+   "bTotal": 2,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c029",
+   "word": "waaweyn",
+   "example": {
+    "docId": "sopc-v2-103",
+    "text": "…caafimaad qabin inta u dhaxaysa cuntooyinka waaweyn",
+    "word": "waaweyn"
+   },
+   "a": [
+    {
+     "form": "waaweyn",
+     "count": 29
+    }
+   ],
+   "b": [
+    {
+     "form": "waaweyn",
+     "count": 29
+    },
+    {
+     "form": "waaweynaa",
+     "count": 1
+    }
+   ],
+   "aTotal": 1,
+   "bTotal": 2,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c030",
+   "word": "dalka",
+   "example": {
+    "docId": "sopc-v2-1",
+    "text": "…badanaya qaar ka mid ah gobollada dalka. Shaqaalaha caafimaadka ayaa booqanaya guryaha si…",
+    "word": "dalka"
+   },
+   "a": [
+    {
+     "form": "dalka",
+     "count": 28
+    },
+    {
+     "form": "dalalka",
+     "count": 6
+    }
+   ],
+   "b": [
+    {
+     "form": "dalka",
+     "count": 28
+    },
+    {
+     "form": "dalbanaa",
+     "count": 1
+    }
+   ],
+   "aTotal": 2,
+   "bTotal": 2,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c031",
+   "word": "nolosha",
+   "example": {
+    "docId": "sopc-v2-12",
+    "text": "Biyuhu waa nolosha aadanaha. Jidhka bini'aadamku wuxuu ka kooban…",
+    "word": "nolosha"
+   },
+   "a": [
+    {
+     "form": "nolosha",
+     "count": 28
+    }
+   ],
+   "b": [
+    {
+     "form": "nolosha",
+     "count": 28
+    },
+    {
+     "form": "noloshaada",
+     "count": 1
+    }
+   ],
+   "aTotal": 1,
+   "bTotal": 2,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c032",
+   "word": "sidoo",
+   "example": {
+    "docId": "sopc-v2-56",
+    "text": "…karka, iyo xanuunnada ku dhaca wadnaha. Sidoo kale, waxay xoojisaa hab-dhiska difaaca…",
+    "word": "Sidoo"
+   },
+   "a": [
+    {
+     "form": "sidoo",
+     "count": 28
+    },
+    {
+     "form": "sidee",
+     "count": 17
+    },
+    {
+     "form": "sideen",
+     "count": 16
+    },
+    {
+     "form": "siday",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "sida",
+     "count": 79
+    },
+    {
+     "form": "sidoo",
+     "count": 28
+    }
+   ],
+   "aTotal": 4,
+   "bTotal": 2,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c033",
+   "word": "laba",
+   "example": {
+    "docId": "sopc-v2-118",
+    "text": "…Magaciisu waa Yuusuf Cali, da'diisuna waa laba sano. Wakiilka: Waa la diiwaangeliyey. Fadlan…",
+    "word": "laba"
+   },
+   "a": [
+    {
+     "form": "laba",
+     "count": 25
+    },
+    {
+     "form": "labada",
+     "count": 11
+    },
+    {
+     "form": "labadii",
+     "count": 4
+    },
+    {
+     "form": "labadaba",
+     "count": 1
+    },
+    {
+     "form": "labadu",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "laba",
+     "count": 25
+    },
+    {
+     "form": "labada",
+     "count": 11
+    },
+    {
+     "form": "labadii",
+     "count": 4
+    },
+    {
+     "form": "labadu",
+     "count": 1
+    }
+   ],
+   "aTotal": 5,
+   "bTotal": 4,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c034",
+   "word": "iyadoo",
+   "example": {
+    "docId": "sopc-v2-105",
+    "text": "…Cunista cuntooyinkan waxay ilaalinaysaa caafimaadka maskaxda iyadoo qofku gaboobayo",
+    "word": "iyadoo"
+   },
+   "a": [
+    {
+     "form": "iyadoo",
+     "count": 22
+    }
+   ],
+   "b": [
+    {
+     "form": "iyadoo",
+     "count": 22
+    },
+    {
+     "form": "iyadoon",
+     "count": 1
+    }
+   ],
+   "aTotal": 1,
+   "bTotal": 2,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c035",
+   "word": "kartaa",
+   "example": {
+    "docId": "sopc-v2-5",
+    "text": "…cabitaannada iyo macmacaanka warshadaysan waxay keeni kartaa cayil iyo xanuunka macaanka. S: Sidee…",
+    "word": "kartaa"
+   },
+   "a": [
+    {
+     "form": "kartaa",
+     "count": 21
+    },
+    {
+     "form": "karo",
+     "count": 17
+    },
+    {
+     "form": "karaa",
+     "count": 13
+    },
+    {
+     "form": "karin",
+     "count": 11
+    },
+    {
+     "form": "karaan",
+     "count": 8
+    },
+    {
+     "form": "karta",
+     "count": 7
+    },
+    {
+     "form": "karka",
+     "count": 5
+    },
+    {
+     "form": "karnaa",
+     "count": 3
+    }
+   ],
+   "b": [
+    {
+     "form": "kartaa",
+     "count": 21
+    }
+   ],
+   "aTotal": 8,
+   "bTotal": 1,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c036",
+   "word": "magacaygu",
+   "example": {
+    "docId": "sopc-v2-118",
+    "text": "Wakiilka: Isbitaalka Guud ee Badbaado, magacaygu waa Nimco. Sideen ku caawiyaa? Macaamiil…",
+    "word": "magacaygu"
+   },
+   "a": [
+    {
+     "form": "magacaygu",
+     "count": 21
+    }
+   ],
+   "b": [
+    {
+     "form": "magacaygu",
+     "count": 21
+    },
+    {
+     "form": "magacaaga",
+     "count": 8
+    },
+    {
+     "form": "magacyada",
+     "count": 1
+    }
+   ],
+   "aTotal": 1,
+   "bTotal": 3,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c037",
+   "word": "qof",
+   "example": {
+    "docId": "sopc-v2-109",
+    "text": "…cudurrada nafaqo-darridu keento. Waa in qof kasta uu fiiro gaar ah u…",
+    "word": "qof"
+   },
+   "a": [
+    {
+     "form": "qof",
+     "count": 21
+    },
+    {
+     "form": "qofka",
+     "count": 20
+    },
+    {
+     "form": "qofku",
+     "count": 9
+    },
+    {
+     "form": "qofkii",
+     "count": 5
+    },
+    {
+     "form": "qofna",
+     "count": 2
+    },
+    {
+     "form": "qofkuna",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "qof",
+     "count": 21
+    },
+    {
+     "form": "qofka",
+     "count": 20
+    },
+    {
+     "form": "qofku",
+     "count": 9
+    },
+    {
+     "form": "qofkii",
+     "count": 5
+    },
+    {
+     "form": "qofna",
+     "count": 2
+    }
+   ],
+   "aTotal": 6,
+   "bTotal": 5,
+   "sides": {
+    "a": "snowball",
+    "b": "xidid"
+   }
+  },
+  {
+   "id": "c038",
+   "word": "sii",
+   "example": {
+    "docId": "sopc-v2-0",
+    "text": "…xorta ah. Dowladdu waxay ballanqaadday inay sii wadi doonto taageerada ay siinayso ganacsatada…",
+    "word": "sii"
+   },
+   "a": [
+    {
+     "form": "sii",
+     "count": 21
+    },
+    {
+     "form": "siiyo",
+     "count": 12
+    },
+    {
+     "form": "kusii",
+     "count": 1
+    },
+    {
+     "form": "siinaya",
+     "count": 1
+    },
+    {
+     "form": "siinaysaa",
+     "count": 1
+    },
+    {
+     "form": "siiyay",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "sii",
+     "count": 21
+    },
+    {
+     "form": "siiyo",
+     "count": 12
+    },
+    {
+     "form": "siinaya",
+     "count": 1
+    },
+    {
+     "form": "siinaysaa",
+     "count": 1
+    },
+    {
+     "form": "siiyay",
+     "count": 1
+    }
+   ],
+   "aTotal": 6,
+   "bTotal": 5,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c039",
+   "word": "magaalada",
+   "example": {
+    "docId": "sopc-v2-145",
+    "text": "…nadiifinayo xeebaha iyo goobaha dadweynaha ee magaalada Muqdisho. Ololahan oo socon doona muddo…",
+    "word": "magaalada"
+   },
+   "a": [
+    {
+     "form": "magaalada",
+     "count": 20
+    },
+    {
+     "form": "magaalo",
+     "count": 2
+    },
+    {
+     "form": "magaaladii",
+     "count": 1
+    }
+   ],
+   "b": [
+    {
+     "form": "magaalada",
+     "count": 20
+    },
+    {
+     "form": "magaaladii",
+     "count": 1
+    }
+   ],
+   "aTotal": 3,
+   "bTotal": 2,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  },
+  {
+   "id": "c040",
+   "word": "amniga",
+   "example": {
+    "docId": "sopc-v2-18",
+    "text": "…u beddesho lambarkaaga sirta ah ee amniga, fadlan garaac lambarka kooban ee adeeggaaga…",
+    "word": "amniga"
+   },
+   "a": [
+    {
+     "form": "amniga",
+     "count": 19
+    }
+   ],
+   "b": [
+    {
+     "form": "amniga",
+     "count": 19
+    },
+    {
+     "form": "amnigu",
+     "count": 1
+    }
+   ],
+   "aTotal": 1,
+   "bTotal": 2,
+   "sides": {
+    "a": "xidid",
+    "b": "snowball"
+   }
+  }
+ ],
+ "setId": "rs-1cqzbgd"
+}

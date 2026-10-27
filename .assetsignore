@@ -1,0 +1,19 @@
+# Files Cloudflare must NOT upload as part of the website.
+# Patterns start with "/" so they only match at the top level: an
+# unanchored "snowball" would also hide js/snowball/, which the app needs.
+/.git
+/.gitignore
+/.assetsignore
+/wrangler.jsonc
+/.wrangler
+/node_modules
+/package.json
+/README.md
+/tools
+/promo
+/snowball
+/dist
+/reports
+/reviews
+.DS_Store
+Thumbs.db

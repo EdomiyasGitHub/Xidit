@@ -1,0 +1,12 @@
+{
+  "name": "xidid",
+  "private": true,
+  "description": "Xidid: Somali search and stemmer lab. The web app needs no build step; this file only lets the Node tools in tools/ import the app's modules.",
+  "type": "module",
+  "scripts": {
+    "review-set": "node tools/build-review-set.mjs",
+    "analyse-review": "node tools/analyse-review.mjs",
+    "filter-vocab": "node tools/filter-somali-freq.mjs",
+    "stem-vocab": "node tools/stem-vocab.mjs"
+  }
+}
